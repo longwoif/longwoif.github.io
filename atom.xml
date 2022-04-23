@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的网站</title>
-    <updated>2022-04-23T13:28:36.591Z</updated>
+    <updated>2022-04-23T14:00:20.551Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -10,6 +10,281 @@
     <logo>https://longwoif.github.io/images/avatar.png</logo>
     <icon>https://longwoif.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 玄夜冥的网站</rights>
+    <entry>
+        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第4章考试]]></title>
+        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-4-zhang-kao-shi/</id>
+        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-4-zhang-kao-shi/">
+        </link>
+        <updated>2022-02-27T13:50:18.000Z</updated>
+        <content type="html"><![CDATA[<p><b>当主机网卡收到来自网络介质的位时，将使用哪种 PDU 格式？</b><br>
+<b href="#" style="color:red;" >⚫️	帧</b><br>
+⚫️	文件<br>
+⚫️	数据段<br>
+⚫️	数据包</p>
+<p><b>以下哪两个特征与 UDP 会话相关？ （选择两项。）</b><br>
+<b href="#" style="color:red;" >⚫️	目的设备在延迟最小的情况下接收流量。</b><br>
+<b href="#" style="color:red;" >⚫️	收到的数据未确认。</b><br>
+⚫️	目的设备重组消息并将其传递给应用程序。<br>
+⚫️	跟踪传输的数据段。<br>
+⚫️	未确认的数据包会重新传输。</p>
+<p><b>哪个应用层协议使用 GET、PUT 和 POST 等消息类型？</b><br>
+⚫️	DNS<br>
+⚫️	SMTP<br>
+<b href="#" style="color:red;" >⚫️	HTTP</b><br>
+⚫️	DHCP<br>
+⚫️	POP3</p>
+<p><b>如果部分 FTP 消息未能传送到目的地，那么将发生什么情况？</b><br>
+⚫️	消息丢失是因为 FTP 没有使用可靠的传输方式。<br>
+⚫️	FTP 源主机向目的主机发送一个查询。<br>
+⚫️	整个 FTP 消息将重新发送。<br>
+<b href="#" style="color:red;" >⚫️	FTP 消息丢失的部分重新发送。</b></p>
+<p><img src="https://longwoif.github.io/post-images/1650721957915.png" alt="" loading="lazy"><br>
+<b>请参见图示。由于 PC1 需要向 PC2 发送数据包，因此 PC1 发出一个 ARP 请求。在这种情况下，接下来将发生什么？</b><br>
+⚫️	RT1 将发送一个带有其 Fa0/0 MAC 地址的 ARP 应答。<br>
+⚫️	SW1 将发送一个带有 PC2 MAC 地址的 ARP 应答。<br>
+<b href="#" style="color:red;" >⚫️	PC2 将发送一个带有其 MAC 地址的 ARP 应答。</b><br>
+⚫️	RT1 将发送一个带有 PC2 MAC 地址的 ARP 应答。<br>
+⚫️	SW1 将发送一个带有其 Fa0/1 MAC 地址的 ARP 应答。</p>
+<p><b>路由过程有什么作用？</b><br>
+⚫️	将 URL 名称转换为 IP 地址<br>
+⚫️	封装网络通信数据<br>
+⚫️	提供安全 Internet 文件传输<br>
+<b href="#" style="color:red;" >⚫️	选择将流量转发到目的网络时使用的路径</b><br>
+⚫️	根据 MAC 地址转发流量</p>
+<p><b>纽约的一所高中（学校 A）计划使用视频会议技术与俄罗斯的另一所高中（学校 B）建立学生交互。视频会议通过 Internet 在两个设备间实现连接。学校 A 的网络管理员使用 IP 地址 192.168.25.10 配置终端设备。管理员请求获取学校 B 中终端设备的 IP 地址，得到的响应是 192.168.25.10。管理员马上知道此 IP 不起作用。为什么？</b><br>
+<b href="#" style="color:red;" >⚫️	这是私有 IP 地址。</b><br>
+⚫️	存在 IP 地址冲突。<br>
+⚫️	这是环回地址。<br>
+⚫️	这是本地链路地址。</p>
+<p><b>子网掩码 255.255.255.224 的前缀长度计数法是什么？</b><br>
+⚫️	/28<br>
+⚫️	/25<br>
+<b href="#" style="color:red;" >⚫️	/27</b><br>
+⚫️	/26</p>
+<p><b>哪个传输层功能用于确保会话建立？</b><br>
+<b href="#" style="color:red;" >⚫️	TCP 三次握手</b><br>
+⚫️	UDP 序列号<br>
+⚫️	UDP ACK 标志<br>
+⚫️	TCP 端口号</p>
+<p><b>ICMP 消息有何用途？</b><br>
+⚫️	监控域名解析为 IP 地址的过程<br>
+⚫️	向路由器通知网络拓扑变化<br>
+<b href="#" style="color:red;" >⚫️	提供 IP 数据包传输反馈</b><br>
+⚫️	确保 IP 数据包传输</p>
+<p><img src="https://longwoif.github.io/post-images/1650722012179.png" alt="" loading="lazy"><br>
+<b>请参见图示。主机未压缩格式的全局 IPv6 地址是什么？</b><br>
+⚫️	2001:0DB8:0000:0BAF:0000:0000:3F57:FE94<br>
+⚫️	2001:DB80:0000:0000:BAF0:0000:3F57:FE94<br>
+⚫️	2001:0DB8:0000:0000:0000:0BAF:3F57:FE94<br>
+<b href="#" style="color:red;" >⚫️	2001:0DB8:0000:0000:0BAF:0000:3F57:FE94</b></p>
+<p><img src="https://longwoif.github.io/post-images/1650722035179.png" alt="" loading="lazy"><br>
+<b>请参见图示。如果使用图示中的网络，下列哪一项将成为 192.133.219.0 网络中主机 A 的默认网关地址？</b><br>
+⚫️	192.135.250.1<br>
+<b href="#" style="color:red;" >⚫️	192.133.219.1</b><br>
+⚫️	192.31.7.1<br>
+⚫️	192.133.219.0</p>
+<p><b>为什么第 3 层设备要对目的 IP 地址和子网掩码执行 AND 运算过程？</b><br>
+<b href="#" style="color:red;" >⚫️	为了确定目的网络的网络地址</b><br>
+⚫️	为了确定目的主机的主机地址<br>
+⚫️	为了确定缺陷帧<br>
+⚫️	为了确定目的网络的广播地址</p>
+<p><b>ARP 操作可能会引起哪两个网络问题？（请选择两项。）</b><br>
+⚫️	大量 ARP 请求广播会导致主机 MAC 地址表溢出并阻止主机通过网络通信。<br>
+<b href="#" style="color:red;" >⚫️	网络攻击者可能会控制 ARP 消息中的 MAC 地址和 IP 地址映射，以图拦截网络流量。</b><br>
+⚫️	手动配置静态 ARP 关联可能会促进 ARP 毒化或 MAC 地址欺骗。<br>
+<b href="#" style="color:red;" >⚫️	在带宽较低的大型网络中，多个 ARP 广播可能会导致数据通信延迟。</b><br>
+⚫️	多个 ARP 应答会使交换机 MAC 地址表包含的条目与连接到相关交换机端口的主机 MAC 地址表匹配。</p>
+<p><b>完成终止过程的 TCP 连接的最后一步是什么？</b><br>
+⚫️	服务器发送 FIN。<br>
+⚫️	服务器发送 ACK。<br>
+⚫️	客户端发送 FIN。<br>
+<b href="#" style="color:red;" >⚫️	客户端发送 ACK。<br>
+在网络上传输的 DHCPDISCOVER 如何到达 DHCP 服务器？</b><br>
+⚫️	发生 DHCPDISCOVER 消息，其中，默认网关的 IP 地址为目的地址。<br>
+<b href="#" style="color:red;" >⚫️	发送 DHCPDISCOVER 消息，其中，广播 IP 地址为目的地址。</b><br>
+⚫️	发送 DHCPDISCOVER 消息，其中，DHCP 服务器的 IP 地址为目的地址。<br>
+⚫️	发送 DHCPDISCOVER 消息，其中，所有 DHCP 服务器侦听的多播 IP 地址为目的地址。</p>
+<p><img src="https://longwoif.github.io/post-images/1650722096332.gif" alt="" loading="lazy"><br>
+<b>请参见图示。网络安全分析师正在查看交换机 S1 上转发的已捕获数据包。下列哪一设备的 MAC 地址为 50:6a:03:96:71:22？</b><br>
+<b href="#" style="color:red;" >⚫️	路由器 DG</b><br>
+⚫️	DSN 服务器<br>
+⚫️	PC-A<br>
+⚫️	路由器 ISP<br>
+⚫️	Web 服务器</p>
+<p><b>以下哪三项是私有 IP 地址？（请选择三项。）</b><br>
+⚫️	192.167.10.10<br>
+<b href="#" style="color:red;" >⚫️	192.168.5.5</b><br>
+⚫️	224.6.6.6<br>
+<b href="#" style="color:red;" >⚫️	172.16.4.4</b><br>
+⚫️	172.32.5.2<br>
+<b href="#" style="color:red;" >⚫️	10.1.1.1</b></p>
+<p><b>使用下列哪种 TCP 机制识别缺失段？</b><br>
+<b href="#" style="color:red;" >⚫️	 序列号</b><br>
+⚫️	 FCS<br>
+⚫️	 确认<br>
+⚫️	 窗口大小</p>
+<p><b>什么是套接字？</b><br>
+⚫️	 源和目的序列号和确认号的组合<br>
+⚫️	 源和目的 IP 地址以及源和目的以太网地址的组合<br>
+<b href="#" style="color:red;" >⚫️	 源 IP 地址与端口号的组合或目的 IP 地址与端口号的组合</b><br>
+⚫️	 源和目的序列号和端口号的组合</p>
+<p><b>ARP 具有哪两项功能？（请选择两项。）</b><br>
+<b href="#" style="color:red;" >⚫️	如果收到 ARP 请求的设备有目的 IPv4 地址，它会响应 ARP 应答。</b><br>
+⚫️	如果没有设备响应 ARP 请求，始发节点会将数据包广播到网段上的所有设备。<br>
+⚫️	ARP 请求发送到以太网 LAN 中的所有设备，其中包含目的主机的 IP 地址及其组播 MAC 地址。<br>
+<b href="#" style="color:red;" >⚫️	如果主机准备将数据包发送到本地目的设备，它有目的设备的 IP 地址，但没有其 MAC 地址，它将生成 ARP 广播。</b><br>
+⚫️	当主机将数据包封装到帧时，它会参考 MAC 地址表来确定 IP 地址到 MAC 地址的映射。</p>
+<p><b>下列哪一术语用于描述在另一种消息格式中放置一种消息格式的过程？</b><br>
+⚫️	分段<br>
+⚫️	多路复用<br>
+<b href="#" style="color:red;" >⚫️	封装</b><br>
+⚫️	编码</p>
+<p><b>在内部主机 NAT 转换中，外部用户用于访问内部主机的地址是什么？</b><br>
+⚫️	内部本地<br>
+⚫️	外部本地<br>
+<b href="#" style="color:red;" >⚫️	内部全局</b><br>
+⚫️	外部全局</p>
+<p><img src="https://longwoif.github.io/post-images/1650722165833.gif" alt="" loading="lazy"><br>
+<b>请参见图示。网络安全分析师正在查看交换机 S2 上从主机 A 发送至主机 B 的已捕获 ICMP 回显请求数据包。携带 ICMP 回显请求报文的以太网帧源 MAC 地址是多少？</b><br>
+<b href="#" style="color:red;" >⚫️	 00-60-0F-B1-D1-11</b><br>
+⚫️	 08-CB-8A-5C-D5-BA<br>
+⚫️	 00-D0-D3-BE-79-26<br>
+⚫️	 01-90-C0-E4-55-BB</p>
+<p><b>NAT 的主要目的是什么？</b><br>
+⚫️	提高网络安全<br>
+<b href="#" style="color:red;" >⚫️	节省 IPv4 地址</b><br>
+⚫️	允许对等文件共享<br>
+⚫️	增强网络性能</p>
+<p><b>URL http://www.cisco.com/index.html 的哪一部分代表顶级 DNS 域？</b><br>
+⚫️	http<br>
+⚫️	index<br>
+<b href="#" style="color:red;" >⚫️	.com</b><br>
+⚫️	www</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第3章考试]]></title>
+        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-kao-shi/</id>
+        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-kao-shi/">
+        </link>
+        <updated>2022-02-20T13:41:46.000Z</updated>
+        <content type="html"><![CDATA[<p><b>哪两种方法可用于强化计算设备？（选择两项。）</b><br>
+<b href="#" style="color:red;" >⚫️	确保物理安全。</b><br>
+⚫️	允许默认服务保持启用状态。<br>
+⚫️	无论发行日期是什么时候，都应严格按年更新修补程序。<br>
+⚫️	允许 USB 自动检测。<br>
+<b href="#" style="color:red;" >⚫️	强制密码历史记录机制。</b></p>
+<p><b>DNS 用于服务请求的有名端口地址编号是什么？</b><br>
+⚫️	110<br>
+⚫️	25<br>
+⚫️	60<br>
+<b href="#" style="color:red;" >⚫️	53</b></p>
+<p><b>可使用下列哪一命令实时查看 NGINX 系统事件的日志条目？</b><br>
+<b href="#" style="color:red;" >⚫️	sudo journalctl –u nginx.service -f</b><br>
+⚫️	sudo journalctl –until &quot;1 hour ago&quot;<br>
+⚫️	sudo journalctl –f<br>
+⚫️	sudo journalctl –u nginx.services</p>
+<p><b>使用 kill 命令前可能使用哪两个 Linux 命令？（选择两项。）</b><br>
+⚫️	grep<br>
+<b href="#" style="color:red;" >⚫️	ps</b><br>
+⚫️	chroot<br>
+⚫️	ls<br>
+<b href="#" style="color:red;" >⚫️	top</b></p>
+<p><b>将哪一 Linux 文件系统引入日志文件系统，可用于在突然断电的情况下将文件系统损坏风险降至最低？</b><br>
+⚫️	CDFS<br>
+⚫️	ext2<br>
+<b href="#" style="color:red;" >⚫️	ext3</b><br>
+⚫️	NFS</p>
+<p><b>服务器与工作站计算机有何不同？</b><br>
+<b href="#" style="color:red;" >⚫️	服务器旨在提供客户端服务。</b><br>
+⚫️	工作站上安装的应用程序更少。<br>
+⚫️	工作站连接的用户更多。<br>
+⚫️	服务器作为独立计算机运行。</p>
+<p><b>哪一用户可覆写 Linux 计算机上的文件权限？</b><br>
+⚫️	仅限文件创建者<br>
+⚫️	任何对该文件具有“组”权限的用户<br>
+<b href="#" style="color:red;" >⚫️	根用户</b><br>
+⚫️	任何对该文件具有“其他”权限的用户</p>
+<p><b>为什么网络管理员在安全运营中心 (SOC) 中选择 Linux 作为操作系统？</b><br>
+⚫️	为此环境创建了更多网络应用。<br>
+⚫️	比其他服务器操作系统更安全。<br>
+<b href="#" style="color:red;" >⚫️	管理员对操作系统拥有更多控制权。</b><br>
+⚫️	比其他操作系统更易使用。</p>
+<p><b>下列哪一 Linux 命令可用于显示当前工作目录的名称？</b><br>
+<b href="#" style="color:red;" >⚫️	pwd</b><br>
+⚫️	chmod<br>
+⚫️	sudo<br>
+⚫️	ps</p>
+<p><b>Linux 软件包管理器的目的是什么？</b><br>
+⚫️	提供对设置和关机功能的访问。<br>
+⚫️	提供特定应用可执行的任务简表。<br>
+<b href="#" style="color:red;" >⚫️	用于安装应用。</b><br>
+⚫️	用于编译创建应用的代码。</p>
+<p><b>apt-get 命令的作用是什么？</b><br>
+⚫️	配置和管理任务（待办事项）列表<br>
+<b href="#" style="color:red;" >⚫️	更新操作系统</b><br>
+⚫️	配置特定日期和时间的预约<br>
+⚫️	分配和配置一部分硬盘用于文件存储</p>
+<p><b>为什么认为 Linux 较之其他操作系统能够更好地抵御恶意软件？</b><br>
+<b href="#" style="color:red;" >⚫️	文件系统结构、文件权限和用户帐户限制</b><br>
+⚫️	可定制的渗透和保护工具<br>
+⚫️	集成防火墙<br>
+⚫️	更少的部署</p>
+<p><b>管理员通过哪种类型的工具可观察和了解网络事务的各细节？</b><br>
+⚫️	恶意软件分析工具<br>
+⚫️	日志管理器<br>
+<b href="#" style="color:red;" >⚫️	数据包捕获软件</b><br>
+⚫️	故障单系统</p>
+<p><b>哪一 Linux 命令用于管理进程？</b><br>
+⚫️	chrootkit<br>
+⚫️	ls<br>
+<b href="#" style="color:red;" >⚫️	kill</b><br>
+⚫️	grep</p>
+<p><b>用于操作系统更新的术语是什么？</b><br>
+⚫️	新版本<br>
+⚫️	数据包<br>
+<b href="#" style="color:red;" >⚫️	补丁</b><br>
+⚫️	渗透测试</p>
+<p><b>默认情况下，Linux 系统引导至 GUI，那么网络管理员可使用哪一应用访问 CLI 环境？</b><br>
+⚫️	软件包管理工具<br>
+⚫️	系统查看器<br>
+⚫️	文件查看器<br>
+<b href="#" style="color:red;" >⚫️	终端仿真程序</b></p>
+<p><b>X Window 系统的主要目的是什么？</b><br>
+⚫️	提供一套基本的渗透测试工具<br>
+<b href="#" style="color:red;" >⚫️	提供用于 GUI 的基本框架</b><br>
+⚫️	提供可定制的 CLI 环境<br>
+⚫️	提供对基于 Linux 的系统的远程访问</p>
+<p><b>在当前 Macintosh 计算机中，Apple 所使用的主要文件系统是什么？</b><br>
+⚫️	ext2<br>
+⚫️	CDFS<br>
+<b href="#" style="color:red;" >⚫️	HFS+</b><br>
+⚫️	ext3</p>
+<p><b>描述一组软件工具（旨在增加用户权限或授予用户权限访问通常不为允许的操作系统部分）的术语是什么？</b><br>
+⚫️	软件包管理器<br>
+⚫️	编译器<br>
+<b href="#" style="color:red;" >⚫️	Rootkit</b><br>
+⚫️	渗透测试</p>
+<p><b>请参见图示。服务器使用下列哪一众所周知的端口号？</b><br>
+<img src="https://longwoif.github.io/post-images/1650721561769.jpg" alt="" loading="lazy"><br>
+⚫️	25<br>
+⚫️	21<br>
+<b href="#" style="color:red;" >⚫️	22</b><br>
+⚫️	23</p>
+<p><b>请考虑下列 Linux 输出中 ls -l 命令的结果。分配给 analyst.txt 文件用户的文件权限是什么？<br>
+ls –l analyst.txt<br>
+-rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt</b><br>
+⚫️	只读<br>
+⚫️	仅写入<br>
+⚫️	读取、写入<br>
+<b href="#" style="color:red;" >⚫️	读取、写入、执行</b></p>
+<p><b>Linux 内核采用何种方法创建进程多任务处理的新进程？</b><br>
+⚫️	创建相互依存的进程<br>
+<b href="#" style="color:red;" >⚫️	分叉</b><br>
+⚫️	流水线<br>
+⚫️	动态进程</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第3章测验]]></title>
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-ce-yan/</id>
