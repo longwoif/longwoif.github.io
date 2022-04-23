@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的网站</title>
-    <updated>2022-04-23T15:42:45.566Z</updated>
+    <updated>2022-04-23T16:21:03.572Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -158,6 +158,379 @@
 <b href="#" style="color:red;" >⚫️	恶意软件包含在看似合法的可执行程序中。</b><br>
 ⚫️	太多的信息被定向至特定内存块，从而导致更多的内存区域受到影响。<br>
 ⚫️	极端数量的数据被发送至特定网络设备接口。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5.7.1.3：Packet Tracer 综合技巧练习100%完成教学]]></title>
+        <id>https://longwoif.github.io/post/5713packet-tracer-zong-he-ji-qiao-lian-xi-100wan-cheng-jiao-xue/</id>
+        <link href="https://longwoif.github.io/post/5713packet-tracer-zong-he-ji-qiao-lian-xi-100wan-cheng-jiao-xue/">
+        </link>
+        <updated>2022-04-23T16:18:10.000Z</updated>
+        <content type="html"><![CDATA[<p>注意：<br>
+本教程只限于将pak完成至100%进度，如100%测试ping命令未能ping通许请先自行检查。使用版本8以上cisco完成时需等待一段时间进行响应方可完成连通性测试。版本6cisco反应速度很快。完整代码适用新老两版的综合技巧练习。该代码为up个人总结，仅供学习使用，未经允许禁止转载！<br>
+简介：<br>
+本次练习着重于子网划分、基本设备配置、静态路由和 RIP 路由。当所有设备配置完毕后，您需要测试端到端的连通性并检查配置。<br>
+学习目标：<br>
+根据要求设计一个编址方案并记录下来。<br>
+在设备上应用基本配置。<br>
+配置 ISP 路由器间的静态路由。<br>
+在区域 1 和区域 2 中配置 RIPv1 路由<br>
+在适当的接口上禁用 RIP 更新<br>
+配置默认路由，然后通过 RIP 重分布路由信息。<br>
+检验拓扑中所有设备间的完全连通性。<br>
+任务 1：设计并记录编址方案。</p>
+<p>步骤 1 － 设计编址方案。<br>
+根据拓扑和下列要求设计一个编址方案：<br>
+R1 与 R2 之间以及它们各自 ISP 路由器之间的 WAN 链路已经配置好。同样，ISP 和 Web 服务器之间的链路也已配置好。<br>
+由于 RIPv1 是有类路由协议，因此不能使用可变长子网掩码 (VLSM)。根据以下信息对每个区域的地址空间划分子网：<br>
+区域 1 地址空间中的最大子网能容纳 1,000 台主机。对于此 10.1.0.0/16 地址空间，应该使用什么子网掩码？<br>
+区域 2 地址空间中的最大子网能容纳 500 台主机。对于此 172.20.0.0/16 地址空间，应该使用什么子网掩码？<br>
+对于区域 1 中的 LAN，将子网 0 分配给连接到 B1-R1 的 FastEthernet 0/0 接口的 LAN。依次为其它 LAN 分配子网。子网 1 分配给连接到 B1-R1 的 FastEthernet 0/1 接口的 LAN；子网 2 分配给 FastEthernet 1/0；子网 3 分配给 FastEthernet 1/1……以此类推。<br>
+对于区域 1 中的 WAN，将最后一个子网分配给 R1 和 B3-R1 之间的链路，第二个到最后一个子网分配给 R1 和 B2-R1 之间的链路，第三个到最后一个子网分配给 R1 和 B1-R1 之间的链路。<br>
+在打印说明上的表格中写下区域 1 的子网分配情况。<br>
+对于区域 2 中的 LAN，按照与区域 1 相同的方式来分配子网：子网 0 分配给 B1-R2 上的 Fa0/0 接口；子网 1 分配给 Fa0/1……以此类推。<br>
+对于区域 2 中的 WAN，将最后一个子网分配给 R2 和 B3-R2 之间的链路，第二个到最后一个子网分配给 R2 和 B2-R2 之间的链路，第三个到最后一个子网分配给 R2 和 B1-R2 之间的链路。<br>
+在打印说明上的表格中写下区域 2 的子网分配情况。<br>
+步骤 2 － 记录编址方案。</p>
+<p>可选：在拓扑图中，标记每个子网。为节省空间，请仅使用后两组二进制八位数进行标记，因为只有这两组数会发生变化。<br>
+B1-R1<br>
+端口	ip地址	子网掩码<br>
+f0/0	10.1.0.1	255.255.252.0<br>
+f0/1	10.1.4.1	255.255.252.0<br>
+f1/0	10.1.8.1	255.255.252.0<br>
+f1/1	10.1.12.1	255.255.252.0<br>
+s0/0/0	10.1.244.2	255.255.252.0<br>
+B2-R1<br>
+端口	ip地址	子网掩码<br>
+f0/0	10.1.16.1	255.255.252.0<br>
+f0/1	10.1.20.1	255.255.252.0<br>
+f1/0	10.1.24.1	255.255.252.0<br>
+f1/1	10.1.28.1	255.255.252.0<br>
+s0/0/0	10.1.248.2	255.255.252.0<br>
+B3-R1<br>
+端口	ip地址	子网掩码<br>
+f0/0	10.1.32.1	255.255.252.0<br>
+f0/1	10.1.36.1	255.255.252.0<br>
+f1/0	10.1.40.1	255.255.252.0<br>
+f1/1	10.1.44.1	255.255.252.0<br>
+s0/0/0	10.1.252.2	255.255.252.0<br>
+B1-R2<br>
+端口	ip地址	子网掩码<br>
+f0/0	172.20.0.1	255.255.254.0<br>
+f0/1	172.20.2.1	255.255.254.0<br>
+f1/0	172.20.4.1	255.255.254.0<br>
+f1/1	172.20.6.1	255.255.254.0<br>
+s0/0/0	172.20.250.2	255.255.254.0<br>
+B2-R2<br>
+端口	ip地址	子网掩码<br>
+f0/0	172.20.8.1	255.255.254.0<br>
+f0/1	172.20.10.1	255.255.254.0<br>
+f1/0	172.20.12.1	255.255.254.0<br>
+f1/1	172.20.14.1	255.255.254.0<br>
+s0/0/0	172.20.252.2	255.255.254.0<br>
+B3-R2<br>
+端口	ip地址	子网掩码<br>
+f0/0	172.20.16.1	255.255.254.0<br>
+f0/1	172.20.18.1	255.255.254.0<br>
+f1/0	172.20.20.1	255.255.254.0<br>
+f1/1	172.20.22.1	255.255.254.0<br>
+s0/0/0	172.20.254.2	255.255.254.0</p>
+<p>使用打印说明中提供的表格记录 IP 地址和子网掩码。将第一个 IP 地址分配给路由器接口。<br>
+对于 WAN 链路，将第一个 IP 地址分配给 R1 和 R2，连接到各自的 B1、B2 和 B3 路由器。<br>
+R1<br>
+端口	ip地址	子网掩码<br>
+s0/0/0	10.1.244.1	255.255.252.0<br>
+s0/0/1	10.1.248.1	255.255.252.0<br>
+s0/1/0	10.1.252.1	255.255.252.0<br>
+R2<br>
+端口	ip地址	子网掩码<br>
+s0/0/0	172.20.250.1	255.255.254.0<br>
+s0/0/1	172.20.252.1	255.255.254.0<br>
+s0/1/0	172.20.254.1	255.255.254.0</p>
+<p>任务 3：应用基本配置。<br>
+使用您所记录的文档在路由器上配置地址等基本配置。使用 cisco 作为线路口令，并使用 class 作为加密口令。使用 64000 作为时钟频率。<br>
+//R1和R2都做此配置<br>
+int s0/0/0<br>
+clock rate 64000<br>
+int s0/0/1<br>
+clock rate 64000<br>
+int s0/1/0<br>
+clock rate 64000</p>
+<p>任务 4：配置 ISP 路由器之间的静态路由。<br>
+每台 ISP 路由器已配置有两条静态路由，可通往对方 ISP 路由器的直接相连的 WAN。在每台 ISP 路由器上实施静态路由，以确保两个区域之间的连通性。<br>
+//ISP-R1<br>
+ip route 10.1.0.0 255.255.0.0 s0/0/0<br>
+ip route 172.20.0.0 255.255.0.0 s0/0/1<br>
+//ISP-R2<br>
+ip route 172.20.0.0 255.255.0.0 s0/0/0<br>
+ip route 10.1.0.0 255.255.0.0 s0/0/1</p>
+<p>任务 5：在区域 1 和区域 2 中配置 RIPv1 路由。<br>
+在所有区域性路由器上配置 RIP 路由。记住，ISP 路由器只使用静态路由。<br>
+//R1<br>
+router rip<br>
+version 1<br>
+network 10.0.0.0<br>
+default-information originate<br>
+passive-interface s0/1/1<br>
+exit<br>
+ip route 0.0.0.0 0.0.0.0 s0/1/1<br>
+//R2<br>
+router rip<br>
+version 1<br>
+network 172.20.0.0<br>
+default-information originate<br>
+passive-interface s0/1/1<br>
+exit<br>
+ip route 0.0.0.0 0.0.0.0 s0/1/1</p>
+<p>任务 6：在适当的接口上禁用 RIP 更新。<br>
+并不需要通过所有的路由器接口发送 RIP 更新。在适当的接口上禁用 RIP 更新。<br>
+//B1\2\3-R1三个路由器<br>
+router rip<br>
+version 1<br>
+network 10.0.0.0<br>
+passive-interface f0/0<br>
+passive-interface f0/1<br>
+passive-interface f1/0<br>
+passive-interface f1/1<br>
+//B1\2\3-R2三个路由器<br>
+router rip<br>
+version 1<br>
+network 172.20.0.0<br>
+passive-interface f0/0<br>
+passive-interface f0/1<br>
+passive-interface f1/0<br>
+passive-interface f1/1<br>
+//任务5中R1、R2路由器已禁用相应端口的RIP更新</p>
+<p>任务 7：配置默认路由，然后通过 RIP 重分布路由信息。<br>
+确定哪些路由器需要默认路由。然后配置该路由器，以向区域内的其它路由器重分布默认路由。<br>
+//任务六中network已经配置了默认路由。</p>
+<p>任务 8：检验拓扑中所有设备间的完全连通性。<br>
+步骤 1 － 测试连通性。<br>
+现在，网络应该实现了端到端连通。请使用 ping 命令测试整个网络的连通性。每台路由器都应该可以 ping 通所有其它路由器接口以及两台 Web 服务器。<br>
+排除出现的网络故障，直到可以成功 ping 通。<br>
+步骤 2 － 检查配置。<br>
+使用检验命令确保配置完整。</p>
+<p>100%完成命令代码使用方法<br>
+无密码路由器打开后直接复制代码粘贴后回车即可。<br>
+有密码路由器如：<br>
+路由器R1\R2路由器需需输入密码进入config模式后方可复制完整代码进行粘贴后回车。</p>
+<p>完整代码如下：<br>
+//B1-R1<br>
+enable<br>
+configure terminal<br>
+int f0/0<br>
+ip add 10.1.0.1 255.255.252.0<br>
+no shut<br>
+int f0/1<br>
+ip add 10.1.4.1 255.255.252.0<br>
+no shut<br>
+int f1/0<br>
+ip add 10.1.8.1 255.255.252.0<br>
+no shut<br>
+int f1/1<br>
+ip add 10.1.12.1 255.255.252.0<br>
+no shut<br>
+int s0/0/0<br>
+ip add 10.1.244.2 255.255.252.0<br>
+no shut<br>
+exit<br>
+hostname B1-R1<br>
+router rip<br>
+version 1<br>
+network 10.0.0.0<br>
+passive-interface f0/0<br>
+passive-interface f0/1<br>
+passive-interface f1/0<br>
+passive-interface f1/1</p>
+<p>//B2-R1<br>
+enable<br>
+configure terminal<br>
+int f0/0<br>
+ip add 10.1.16.1 255.255.252.0<br>
+no shut<br>
+int f0/1<br>
+ip add 10.1.20.1 255.255.252.0<br>
+no shut<br>
+int f1/0<br>
+ip add 10.1.24.1 255.255.252.0<br>
+no shut<br>
+int f1/1<br>
+ip add 10.1.28.1 255.255.252.0<br>
+no shut<br>
+int s0/0/0<br>
+ip add 10.1.248.2 255.255.252.0<br>
+no shut<br>
+exit<br>
+hostname B2-R1<br>
+router rip<br>
+version 1<br>
+network 10.0.0.0<br>
+passive-interface f0/0<br>
+passive-interface f0/1<br>
+passive-interface f1/0<br>
+passive-interface f1/1</p>
+<p>//B3-R1<br>
+enable<br>
+configure terminal<br>
+int f0/0<br>
+ip add 10.1.32.1 255.255.252.0<br>
+no shut<br>
+int f0/1<br>
+ip add 10.1.36.1 255.255.252.0<br>
+no shut<br>
+int f1/0<br>
+ip add 10.1.40.1 255.255.252.0<br>
+no shut<br>
+int f1/1<br>
+ip add 10.1.44.1 255.255.252.0<br>
+no shut<br>
+int s0/0/0<br>
+ip add 10.1.252.2 255.255.252.0<br>
+no shut<br>
+exit<br>
+hostname B3-R1<br>
+router rip<br>
+version 1<br>
+network 10.0.0.0<br>
+passive-interface f0/0<br>
+passive-interface f0/1<br>
+passive-interface f1/0<br>
+passive-interface f1/1</p>
+<p>//R1<br>
+int S0/0/0<br>
+ip add 10.1.244.1 255.255.252.0<br>
+no shut<br>
+int S0/0/1<br>
+ip add 10.1.248.1 255.255.252.0<br>
+no shut<br>
+int S0/1/0<br>
+ip add 10.1.252.1 255.255.252.0<br>
+no shut<br>
+int s0/0/0<br>
+clock rate 64000<br>
+int s0/0/1<br>
+clock rate 64000<br>
+int s0/1/0<br>
+clock rate 64000<br>
+exit<br>
+router rip<br>
+version 1<br>
+network 10.0.0.0<br>
+default-information originate<br>
+passive-interface s0/1/1<br>
+exit<br>
+ip route 0.0.0.0 0.0.0.0 s0/1/1</p>
+<p>//B1-R2<br>
+enable<br>
+configure terminal<br>
+int f0/0<br>
+ip add 172.20.0.1 255.255.254.0<br>
+no shut<br>
+int f0/1<br>
+ip add 172.20.2.1 255.255.254.0<br>
+no shut<br>
+int f1/0<br>
+ip add 172.20.4.1 255.255.254.0<br>
+no shut<br>
+int f1/1<br>
+ip add 172.20.6.1 255.255.254.0<br>
+no shut<br>
+int s0/0/0<br>
+ip add 172.20.250.2	 255.255.254.0<br>
+no shut<br>
+exit<br>
+hostname B1-R2<br>
+router rip<br>
+version 1<br>
+network 172.20.0.0<br>
+passive-interface f0/0<br>
+passive-interface f0/1<br>
+passive-interface f1/0<br>
+passive-interface f1/1</p>
+<p>//B2-R2<br>
+enable<br>
+configure terminal<br>
+int f0/0<br>
+ip add 172.20.8.1 255.255.254.0<br>
+no shut<br>
+int f0/1<br>
+ip add 172.20.10.1 255.255.254.0<br>
+no shut<br>
+int f1/0<br>
+ip add 172.20.12.1 255.255.254.0<br>
+no shut<br>
+int f1/1<br>
+ip add 172.20.14.1 255.255.254.0<br>
+no shut<br>
+int s0/0/0<br>
+ip add 172.20.252.2 255.255.254.0<br>
+no shut<br>
+exit<br>
+hostname B2-R2<br>
+router rip<br>
+version 1<br>
+network 172.20.0.0<br>
+passive-interface f0/0<br>
+passive-interface f0/1<br>
+passive-interface f1/0<br>
+passive-interface f1/1</p>
+<p>//B3-R2<br>
+enable<br>
+configure terminal<br>
+int f0/0<br>
+ip add 172.20.16.1 255.255.254.0<br>
+no shut<br>
+int f0/1<br>
+ip add 172.20.18.1 255.255.254.0<br>
+no shut<br>
+int f1/0<br>
+ip add 172.20.20.1 255.255.254.0<br>
+no shut<br>
+int f1/1<br>
+ip add 172.20.22.1 255.255.254.0<br>
+no shut<br>
+int s0/0/0<br>
+ip add 172.20.254.2 255.255.254.0<br>
+no shut<br>
+exit<br>
+hostname B3-R2<br>
+router rip<br>
+version 1<br>
+network 172.20.0.0<br>
+passive-interface f0/0<br>
+passive-interface f0/1<br>
+passive-interface f1/0<br>
+passive-interface f1/1</p>
+<p>//R2<br>
+int S0/0/0<br>
+ip add 172.20.250.1 255.255.254.0<br>
+no shut<br>
+int S0/0/1<br>
+ip add 172.20.252.1 255.255.254.0<br>
+no shut<br>
+int S0/1/0<br>
+ip add 172.20.254.1 255.255.254.0<br>
+no shut<br>
+int s0/0/0<br>
+clock rate 64000<br>
+int s0/0/1<br>
+clock rate 64000<br>
+int s0/1/0<br>
+clock rate 64000<br>
+exit<br>
+router rip<br>
+version 1<br>
+network 172.20.0.0<br>
+default-information originate<br>
+passive-interface s0/1/1<br>
+exit<br>
+ip route 0.0.0.0 0.0.0.0 s0/1/1</p>
+<p>//ISP-R1<br>
+ip route 10.1.0.0 255.255.0.0 s0/0/0<br>
+ip route 172.20.0.0 255.255.0.0 s0/0/1</p>
+<p>//ISP-R2<br>
+ip route 172.20.0.0 255.255.0.0 s0/0/0<br>
+ip route 10.1.0.0 255.255.0.0 s0/0/1</p>
 ]]></content>
     </entry>
     <entry>
