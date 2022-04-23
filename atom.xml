@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的网站</title>
-    <updated>2022-04-23T15:40:44.996Z</updated>
+    <updated>2022-04-23T15:42:45.566Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -456,7 +456,7 @@
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-kao-shi/</id>
         <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-kao-shi/">
         </link>
-        <updated>2022-02-20T13:41:46.000Z</updated>
+        <updated>2022-02-27T13:41:46.000Z</updated>
         <content type="html"><![CDATA[<p><b>哪两种方法可用于强化计算设备？（选择两项。）</b><br>
 <b href="#" style="color:red;" >⚫️	确保物理安全。</b><br>
 ⚫️	允许默认服务保持启用状态。<br>
@@ -579,7 +579,7 @@ ls –l analyst.txt<br>
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-ce-yan/</id>
         <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-ce-yan/">
         </link>
-        <updated>2022-02-20T12:39:20.000Z</updated>
+        <updated>2022-02-27T12:39:20.000Z</updated>
         <content type="html"><![CDATA[<p><b>Linux 管理员使用哪种类型的工具攻击计算机或网络以查找漏洞？</b><br>
 选择一项：<br>
 ⚫️ 渗透测试<br>
@@ -702,7 +702,7 @@ Linux 是一个开源操作系统，任何人均可访问源代码，并对其�
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-2-zhang-kao-shi/</id>
         <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-2-zhang-kao-shi/">
         </link>
-        <updated>2022-02-13T13:09:29.000Z</updated>
+        <updated>2022-02-20T13:09:29.000Z</updated>
         <content type="html"><![CDATA[<p><b>在 Windows 中使用 net accounts 命令的目的是什么？</b><br>
 ⚫️	显示网络上的计算机和网络设备列表<br>
 <b href="#" style="color:red;" >⚫️	查看用户的密码和登录要求设置</b><br>
@@ -836,7 +836,7 @@ Linux 是一个开源操作系统，任何人均可访问源代码，并对其�
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-2-zhang-ce-yan/</id>
         <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-2-zhang-ce-yan/">
         </link>
-        <updated>2022-02-13T12:30:50.000Z</updated>
+        <updated>2022-02-20T12:30:50.000Z</updated>
         <content type="html"><![CDATA[<p><b>用户如何才能阻止特定应用程序通过网络访问 Windows 计算机？</b><br>
 选择一项：<br>
 ⚫️	启用 MAC 地址过滤。<br>
@@ -982,7 +982,7 @@ Refer to curriculum topic: 2.1.1<br>
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-kao-shi/</id>
         <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-kao-shi/">
         </link>
-        <updated>2022-02-06T12:59:00.000Z</updated>
+        <updated>2022-02-13T12:59:00.000Z</updated>
         <content type="html"><![CDATA[<p><b>在 SOC 运营中，哪一系统常用于让分析人员从警报池中选择警报进行调查？</b><br>
 ⚫️	系统日志服务器<br>
 ⚫️	注册系统<br>
@@ -1068,7 +1068,7 @@ Refer to curriculum topic: 2.1.1<br>
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-ce-yan/</id>
         <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-ce-yan/">
         </link>
-        <updated>2022-02-06T12:30:46.000Z</updated>
+        <updated>2022-02-13T12:30:46.000Z</updated>
         <content type="html"><![CDATA[<p><b>什么是非法无线热点？</b><br>
 选择一项：<br>
 ⚫️它是使用过时设备设置的热点。<br>
