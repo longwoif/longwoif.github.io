@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的网站</title>
-    <updated>2022-04-23T12:29:45.281Z</updated>
+    <updated>2022-04-23T12:38:29.772Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -11,126 +11,120 @@
     <icon>https://longwoif.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 玄夜冥的网站</rights>
     <entry>
-        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第3章测验]]></title>
-        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-ce-yan/</id>
-        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-3-zhang-ce-yan/">
+        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第1章测验]]></title>
+        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-ce-yan/</id>
+        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-ce-yan/">
         </link>
-        <updated>2022-04-23T12:22:14.000Z</updated>
-        <content type="html"><![CDATA[<p><b>Linux 管理员使用哪种类型的工具攻击计算机或网络以查找漏洞？</b><br>
+        <updated>2022-04-23T12:33:46.000Z</updated>
+        <content type="html"><![CDATA[<p><b>什么是非法无线热点？</b><br>
 选择一项：<br>
-⚫️	渗透测试<br>
-⚫️	恶意软件分析<br>
-⚫️	入侵检测系统<br>
-⚫️	防火墙<br>
+⚫️它是使用过时设备设置的热点。<br>
+⚫️它是不加密网络用户流量的热点。<br>
+⚫️它是不实施强用户身份验证机制的热点。<br>
+⚫️它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。<br>
 反馈<br>
-Refer to curriculum topic: 3.1.1<br>
-PenTesting 被称为渗透测试，包括用于在网络或计算机中通过攻击来搜索漏洞的工具。<br>
-正确答案是：<b href="#" style="color:red;" >渗透测试</b></p>
-<p><b>正确还是错误？</b><br>
-在不同发行版中，Linux GUI 均相同。<br>
+Refer to curriculum topic: 1.1.1<br>
+非法无线热点是指在未经企业或组织正式许可的情况下在企业或组织中运行的无线接入点。<br>
+正确答案是：<b href="#" style="color:red;" >它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。</b></p>
+<p><b>如何使用 SOC 中的安全信息和事件管理系统帮助相关人员抵御安全威胁？</b><br>
 选择一项：<br>
-⚫️	正确<br>
-⚫️	错误<br>
+⚫️通过过滤网络流量<br>
+⚫️通过收集和过滤数据<br>
+⚫️通过对网络资源的用户进行身份验证<br>
+⚫️通过对远程站点的通信进行加密<br>
 反馈<br>
-Refer to curriculum topic: 3.3.1<br>
-大多数 Linux 发行版均提供基于 X Window 系统的图形界面。X Window 系统为 GUI 提供了框架，但没有指定用户界面。这将由窗口管理器完成，如 Gnome 或 KDE。<br>
-正确答案是：<b href="#" style="color:red;" >错误</b></p>
-<p><b>哪个术语是指计算机系统的运行实例？</b><br>
+Refer to curriculum topic: 1.2.1<br>
+安全信息和事件管理系统 (SIEM) 结合多个来源的数据，帮助 SOC 人员收集和过滤数据，检测威胁并对其进行分类，分析和调查威胁，管理资源以实施预防措施。<br>
+正确答案是：<b href="#" style="color:red;" >通过收集和过滤数据</b></p>
+<p><b>术语“网络运营分析师”指的是 SOC 中的哪一群人员？</b><br>
 选择一项：<br>
-⚫️	fork<br>
-⚫️	软件包管理器<br>
-⚫️	补丁<br>
-⚫️	进程<br>
+⚫️SOC 经理<br>
+⚫️一级人员<br>
+⚫️二级人员<br>
+⚫️三级人员<br>
 反馈<br>
-Refer to curriculum topic: 3.3.2<br>
-进程是计算机程序的运行实例。多任务操作系统可同时执行多个进程。进程 ID 或 PID 用于识别进程。ps 或 top 命令可用于查看计算机上当前正在运行的进程。<br>
-正确答案是：<b href="#" style="color:red;" >进程</b></p>
-<p><b>Linux 管理员输入 man man 命令之后有什么结果？</b><br>
+Refer to curriculum topic: 1.2.1<br>
+在典型的 SOC 中，一级人员被称为警报分析师，也称为网络运营分析师。<br>
+正确答案是：<b href="#" style="color:red;" >一级人员</b></p>
+<p><b>计算机在允许同一用户访问用户数据之前，向用户显示要求付款的屏幕。该恶意软件属于哪一类型？</b><br>
 选择一项：<br>
-⚫️	man man 命令使用手动地址配置网络接口<br>
-⚫️	man man 命令提供当前提示符可用的命令列表<br>
-⚫️	man man 命令提供有关man 命令的文档<br>
-⚫️	man man 命令打开最新的日志文件<br>
+⚫️一种病毒<br>
+⚫️一种逻辑炸弹<br>
+⚫️一种蠕虫<br>
+⚫️一种勒索软件<br>
 反馈<br>
-Refer to curriculum topic: 3.1.2<br>
-man 命令是“手册”的简称，用于获取有关 Linux 命令的文档。man man 命令将提供有关手册使用的文档。<br>
-正确答案是：<b href="#" style="color:red;" >man man 命令提供有关man 命令的文档</b></p>
-<p><b>在 Linux 系统中，哪些类型的文件用于管理服务？</b><br>
+Refer to curriculum topic: 1.1.1<br>
+勒索软件通常加密计算机上的数据，并使数据不可用，直到计算机用户支付特定金额的赎金。<br>
+正确答案是：<b href="#" style="color:red;" >一种勒索软件</b></p>
+<p><b>出于政治或社会原因进行黑客攻击的黑客称为什么？</b><br>
 选择一项：<br>
-⚫️	设备文件<br>
-⚫️	配置文件<br>
-⚫️	系统文件<br>
-⚫️	目录文件<br>
+⚫️白帽黑客<br>
+⚫️黑客<br>
+⚫️蓝帽黑客<br>
+⚫️激进黑客<br>
 反馈<br>
-Refer to curriculum topic: 3.2.1<br>
-Linux 中使用配置文件来管理服务。当服务启动时，它会查找其配置文件，将这些配置文件加载到内存中并根据文件中的设置调整自己。<br>
-正确答案是：<b href="#" style="color:red;" >配置文件</b></p>
-<p><b>请考虑下列 Linux 输出中 ls -l 命令的结果。分配给 analyst.txt 文件的组文件权限是什么？<br>
-ls –l analyst.txt<br>
--rwxrw-r-- sales staff 1028 May 28 15:50 analyst.txt</b><br>
+Refer to curriculum topic: 1.1.2<br>
+该术语用于描述因某种正义原因聚集并提供保护的灰帽黑客。<br>
+正确答案是：<b href="#" style="color:red;" >激进黑客</b></p>
+<p><b>在 SOC 安全信息和事件管理系统中应包含哪三项技术？（选择三项。）</b><br>
+选择一项或多项：<br>
+⚫️代理服务<br>
+⚫️威胁情报<br>
+⚫️安全监控<br>
+⚫️用户身份验证<br>
+⚫️入侵防御<br>
+⚫️事件收集、关联和分析<br>
+反馈<br>
+Refer to curriculum topic: 1.2.1<br>
+SOC 中的技术应包括以下内容：<br>
+事件收集、关联和分析<br>
+安全监控<br>
+安全控制<br>
+日志管理<br>
+漏洞评估<br>
+漏洞跟踪<br>
+威胁情报<br>
+代理服务器、用户身份验证和 IPS 是在网络基础设施中部署并由 NOC 管理的安全设备和机制。<br>
+正确答案是：<b href="#" style="color:red;" >威胁情报, 安全监控, 事件收集、关联和分析</b></p>
+<p><b>什么是网络战？</b><br>
 选择一项：<br>
-⚫️	读取、写入、执行<br>
-⚫️	只读<br>
-⚫️	读取、写入<br>
-⚫️	完全访问<br>
+⚫️网络战仅攻击军事目标。<br>
+⚫️网络战旨在破坏或损坏国家利益。<br>
+⚫️网络战是对大公司的攻击。<br>
+⚫️网络战是一个只涉及机器人和机器人之间的攻击的战争。<br>
 反馈<br>
-Refer to curriculum topic: 3.2.2<br>
-系统始终按“用户”、“组”和“其他”顺序显示文件权限。在显示的示例中，该文件具有以下权限：<br>
-短划线 (-) 表示这是一个文件。如果是目录，第一根短划线将被替换为“d”。<br>
-第一组字符表示用户权限 (rwx)。拥有该文件的用户 sales 可以读取、写入并执行该文件。<br>
-第二组字符表示组权限 (rw-)。拥有该文件的组 staff 可以读写该文件。<br>
-第三组字符表示任何其他用户或组权限 (r--)。计算机上的任何其他用户或组只能读取该文件。<br>
-正确答案是：<b href="#" style="color:red;" >读取、写入</b></p>
-<p><b>哪个 Linux 组件将用于访问应用可执行的任务列表？</b><br>
+Refer to curriculum topic: 1.1.3<br>
+参考课程主题：5.1<br>
+本题目基于演讲中的内容信息。<br>
+网络战是信息战（IW）的子集。 它的目标是破坏(可用性)、损坏(完整性)或利用(保密或隐私)。 它可以直接针对军事力量,关键的基础设施,或其他国家利益,如经济目标。 它涉及协同工作的许多团队。 僵尸网络可能是用于发起攻击的工具之一。<br>
+正确答案是：<b href="#" style="color:red;" >网络战旨在破坏或损坏国家利益</b></p>
+<p><b>哪个组织是提供 CISSP 认证的国际非营利性组织？</b><br>
 选择一项：<br>
-⚫️	快速搜索框<br>
-⚫️	启动器<br>
-⚫️	快速列表<br>
-⚫️	系统和通知菜单<br>
+⚫️IEEE<br>
+⚫️GIAC<br>
+⚫️(ISC)2<br>
+⚫️CompTIA<br>
 反馈<br>
-Refer to curriculum topic: 3.3.1<br>
-右键点击启动程序中托管的任何应用，即可访问快速列表。快速列表允许访问特定应用的一些任务。<br>
-正确答案是：<b href="#" style="color:red;" >快速列表</b></p>
-<p><b>哪种方法可以用于强化计算设备？</b><br>
+Refer to curriculum topic: 1.2.2<br>
+(ISC)² 是一个提供 CISSP 认证的国际非营利性组织。<br>
+正确答案是：<b href="#" style="color:red;" >(ISC)2</b></p>
+<p><b>将职称与 SOC 人员职责进行匹配。（并非所有选项都会用到。）</b><br>
+⚫️三级主题专家<br>
+⚫️二级事件响应人员<br>
+⚫️一级警报分析师<br>
+反馈<br>
+Refer to curriculum topic: 1.2.1<br>
+正确答案是：<b href="#" style="color:red;" >三级主题专家 → 参与潜在危险的搜索并实施威胁检测工具, 二级事件响应人员 → 参与事件的深入调查, 一级警报分析师 → 监控收到的警报并验证是否确实发生了事件</b></p>
+<p><b>在 SOC 中验证安全事件之后，事件响应人员将检查事件，但无法识别事件的来源并形成有效的缓解程序。事件故障单应向谁上报？</b><br>
 选择一项：<br>
-⚫️	强制定期更改密码。<br>
-⚫️	允许 USB 自动检测。<br>
-⚫️	允许默认服务保持启用状态。<br>
-⚫️	无论发行日期是什么时候，都应严格按年更新修补程序。<br>
+⚫️SME，以便进行进一步调查<br>
+⚫️网络运营分析师，以寻求帮助<br>
+⚫️警报分析师，以便进行进一步分析<br>
+⚫️SOC 经理，以要求指派其他人员<br>
 反馈<br>
-Refer to curriculum topic: 3.2.1<br>
-加固设备的基本最佳做法如下所示：<br>
-确保物理安全。<br>
-尽可能减少安装的软件包数量。<br>
-禁用不使用的服务。<br>
-使用 SSH 并禁用通过 SSH 登录根帐户的操作。<br>
-保持系统更至最新。<br>
-禁用 USB 自动检测。<br>
-强制使用强密码。<br>
-强制定期更改密码。<br>
-防止用户重用旧密码。<br>
-定期查看日志。<br>
-正确答案是：<b href="#" style="color:red;" >强制定期更改密码。</b></p>
-<p><b>哪种工作环境更方便用户使用？</b><br>
-选择一项：<br>
-⚫️	CLI<br>
-⚫️	GUI<br>
-⚫️	命令提示符<br>
-⚫️	混合 GUI 和 CLI 接口<br>
-反馈<br>
-Refer to curriculum topic: 3.3.1<br>
-图形用户界面 或 GUI 被认为更方便用户使用，因为它提供了带有界面和图标的操作系统，可便于定位应用并完成任务。<br>
-正确答案是：<b href="#" style="color:red;" >GUI</b></p>
-<p><b>Linux 作为开源操作系统有什么优势？</b><br>
-选择一项：<br>
-⚫️	Linux 发行版由单一组织维护。<br>
-⚫️	Linux 发行版源代码可以修改，然后重新编译。<br>
-⚫️	Linux 发行版必须包括不需成本的免费支持。<br>
-⚫️	Linux 发行版是更为简单的操作系统，因为它们并非设计用于连接网络。<br>
-反馈<br>
-Refer to curriculum topic: 3.1.1<br>
-Linux 是一个开源操作系统，任何人均可访问源代码，并对其进行检查、修改并重新编译。Linux 发行版由程序员社区维护，其旨在连接网络并且不需要提供免费支持。<br>
-正确答案是：<b href="#" style="color:red;" >Linux 发行版源代码可以修改，然后重新编译。</b></p>
+Refer to curriculum topic: 1.2.1<br>
+事件响应人员是 SOC 中的二级安全专业人员。如果响应人员无法解决事件故障单，则应将事件故障单上报给下一级支持人员，即三级人员。3 级 SME 将进一步调查事件。<br>
+正确答案是：<b href="#" style="color:red;" >SME，以便进行进一步调查</b></p>
 ]]></content>
     </entry>
     <entry>
@@ -277,155 +271,6 @@ Refer to curriculum topic: 2.1.1<br>
 反馈<br>
 Refer to curriculum topic: 2.1.1<br>
 正确答案是：<b href="#" style="color:red;" >错误</b></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第1章测验]]></title>
-        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-ce-yan/</id>
-        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-ce-yan/">
-        </link>
-        <updated>2022-04-23T11:36:03.000Z</updated>
-        <content type="html"><![CDATA[<p><b>什么是非法无线热点？</b><br>
-选择一项：<br>
-⚫️它是使用过时设备设置的热点。<br>
-⚫️它是不加密网络用户流量的热点。<br>
-⚫️它是不实施强用户身份验证机制的热点。<br>
-⚫️它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。<br>
-反馈<br>
-Refer to curriculum topic: 1.1.1<br>
-非法无线热点是指在未经企业或组织正式许可的情况下在企业或组织中运行的无线接入点。<br>
-正确答案是：<b href="#" style="color:red;" >它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。</b></p>
-<p><b>如何使用 SOC 中的安全信息和事件管理系统帮助相关人员抵御安全威胁？</b><br>
-选择一项：<br>
-⚫️通过过滤网络流量<br>
-⚫️通过收集和过滤数据<br>
-⚫️通过对网络资源的用户进行身份验证<br>
-⚫️通过对远程站点的通信进行加密<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-安全信息和事件管理系统 (SIEM) 结合多个来源的数据，帮助 SOC 人员收集和过滤数据，检测威胁并对其进行分类，分析和调查威胁，管理资源以实施预防措施。<br>
-正确答案是：<b href="#" style="color:red;" >通过收集和过滤数据</b></p>
-<p><b>术语“网络运营分析师”指的是 SOC 中的哪一群人员？</b><br>
-选择一项：<br>
-⚫️SOC 经理<br>
-⚫️一级人员<br>
-⚫️二级人员<br>
-⚫️三级人员<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-在典型的 SOC 中，一级人员被称为警报分析师，也称为网络运营分析师。<br>
-正确答案是：<b href="#" style="color:red;" >一级人员</b></p>
-<p><b>计算机在允许同一用户访问用户数据之前，向用户显示要求付款的屏幕。该恶意软件属于哪一类型？</b><br>
-选择一项：<br>
-⚫️一种病毒<br>
-⚫️一种逻辑炸弹<br>
-⚫️一种蠕虫<br>
-⚫️一种勒索软件<br>
-反馈<br>
-Refer to curriculum topic: 1.1.1<br>
-勒索软件通常加密计算机上的数据，并使数据不可用，直到计算机用户支付特定金额的赎金。<br>
-正确答案是：<b href="#" style="color:red;" >一种勒索软件</b></p>
-<p><b>出于政治或社会原因进行黑客攻击的黑客称为什么？</b><br>
-选择一项：<br>
-⚫️白帽黑客<br>
-⚫️黑客<br>
-⚫️蓝帽黑客<br>
-⚫️激进黑客<br>
-反馈<br>
-Refer to curriculum topic: 1.1.2<br>
-该术语用于描述因某种正义原因聚集并提供保护的灰帽黑客。<br>
-正确答案是：<b href="#" style="color:red;" >激进黑客</b></p>
-<p><b>在 SOC 安全信息和事件管理系统中应包含哪三项技术？（选择三项。）</b><br>
-选择一项或多项：<br>
-⚫️代理服务<br>
-⚫️威胁情报<br>
-⚫️安全监控<br>
-⚫️用户身份验证<br>
-⚫️入侵防御<br>
-⚫️事件收集、关联和分析<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-SOC 中的技术应包括以下内容：<br>
-事件收集、关联和分析<br>
-安全监控<br>
-安全控制<br>
-日志管理<br>
-漏洞评估<br>
-漏洞跟踪<br>
-威胁情报<br>
-代理服务器、用户身份验证和 IPS 是在网络基础设施中部署并由 NOC 管理的安全设备和机制。<br>
-正确答案是：<b href="#" style="color:red;" >威胁情报, 安全监控, 事件收集、关联和分析</b></p>
-<p><b>什么是网络战？</b><br>
-选择一项：<br>
-⚫️网络战仅攻击军事目标。<br>
-⚫️网络战旨在破坏或损坏国家利益。<br>
-⚫️网络战是对大公司的攻击。<br>
-⚫️网络战是一个只涉及机器人和机器人之间的攻击的战争。<br>
-反馈<br>
-Refer to curriculum topic: 1.1.3<br>
-参考课程主题：5.1<br>
-本题目基于演讲中的内容信息。<br>
-网络战是信息战（IW）的子集。 它的目标是破坏(可用性)、损坏(完整性)或利用(保密或隐私)。 它可以直接针对军事力量,关键的基础设施,或其他国家利益,如经济目标。 它涉及协同工作的许多团队。 僵尸网络可能是用于发起攻击的工具之一。<br>
-正确答案是：<b href="#" style="color:red;" >网络战旨在破坏或损坏国家利益</b></p>
-<p><b>哪个组织是提供 CISSP 认证的国际非营利性组织？</b><br>
-选择一项：<br>
-⚫️IEEE<br>
-⚫️GIAC<br>
-⚫️(ISC)2<br>
-⚫️CompTIA<br>
-反馈<br>
-Refer to curriculum topic: 1.2.2<br>
-(ISC)² 是一个提供 CISSP 认证的国际非营利性组织。<br>
-正确答案是：<b href="#" style="color:red;" >(ISC)2</b></p>
-<p><b>将职称与 SOC 人员职责进行匹配。（并非所有选项都会用到。）</b><br>
-⚫️三级主题专家	<br>
-⚫️二级事件响应人员	<br>
-⚫️一级警报分析师	<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-正确答案是：<b href="#" style="color:red;" >三级主题专家 → 参与潜在危险的搜索并实施威胁检测工具, 二级事件响应人员 → 参与事件的深入调查, 一级警报分析师 → 监控收到的警报并验证是否确实发生了事件</b></p>
-<p><b>在 SOC 中验证安全事件之后，事件响应人员将检查事件，但无法识别事件的来源并形成有效的缓解程序。事件故障单应向谁上报？</b><br>
-选择一项：<br>
-⚫️SME，以便进行进一步调查<br>
-⚫️网络运营分析师，以寻求帮助<br>
-⚫️警报分析师，以便进行进一步分析<br>
-⚫️SOC 经理，以要求指派其他人员<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-事件响应人员是 SOC 中的二级安全专业人员。如果响应人员无法解决事件故障单，则应将事件故障单上报给下一级支持人员，即三级人员。3 级 SME 将进一步调查事件。<br>
-正确答案是：<b href="#" style="color:red;" >SME，以便进行进一步调查</b></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://longwoif.github.io/post/hello-gridea/</id>
-        <link href="https://longwoif.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
