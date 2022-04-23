@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的网站</title>
-    <updated>2022-04-23T14:00:20.551Z</updated>
+    <updated>2022-04-23T15:40:44.996Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -11,11 +11,300 @@
     <icon>https://longwoif.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 玄夜冥的网站</rights>
     <entry>
+        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第6章考试]]></title>
+        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-6-zhang-kao-shi/</id>
+        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-6-zhang-kao-shi/">
+        </link>
+        <updated>2022-04-24T15:34:32.000Z</updated>
+        <content type="html"><![CDATA[<p><b>病毒恶意软件有什么重要特征？</b><br>
+⚫️	一旦安装于主机系统，病毒会自动传播至其他系统。<br>
+<b href="#" style="color:red;" >⚫️	病毒由主机系统上的事件触发。</b><br>
+⚫️	病毒恶意软件仅通过互联网分布。<br>
+⚫️	病毒的执行可独立于主机系统。</p>
+<p><b>下列哪种类型的黑客会被激发去抗议政治和社会问题？</b><br>
+<b href="#" style="color:red;" >⚫️	激进黑客</b><br>
+⚫️	漏洞经纪人<br>
+⚫️	脚本小子<br>
+⚫️	网络犯罪分子</p>
+<p><b>攻击者在网络上发起侦查跟踪攻击的两个目的是什么？（选择两项。）</b><br>
+⚫️	防止其他用户访问系统<br>
+<b href="#" style="color:red;" >⚫️	收集有关网络和设备的信息</b><br>
+<b href="#" style="color:red;" >⚫️	扫描可访问性</b><br>
+⚫️	检索和修改数据<br>
+⚫️	升级访问权限</p>
+<p><b>以下哪个术语可用于描述以金融机构特定人员为攻击目标的邮件？</b><br>
+⚫️	语音网络钓鱼<br>
+<b href="#" style="color:red;" >⚫️	鱼叉式网络钓鱼</b><br>
+⚫️	针对性网络钓鱼<br>
+⚫️	垃圾邮件<br>
+⚫️	间谍软件</p>
+<p><b>社交工程攻击中使用的三种技术是什么？（选择三项。）</b><br>
+⚫️	缓冲区溢出<br>
+⚫️	发送垃圾邮件<br>
+<b href="#" style="color:red;" >⚫️	语音网络钓鱼</b><br>
+<b href="#" style="color:red;" >⚫️	假托</b><br>
+⚫️	中间人<br>
+<b href="#" style="color:red;" >⚫️	网络钓鱼</b></p>
+<p><b>攻击者将笔记本电脑作为恶意无线接入点捕获目标用户的所有网络流量。该攻击属于哪一类型？</b><br>
+⚫️	缓冲区溢出<br>
+⚫️	信任利用<br>
+⚫️	端口重定向<br>
+<b href="#" style="color:red;" >⚫️	中间人</b></p>
+<p><b>缓冲区溢出的原因是什么？</b><br>
+⚫️	将太多信息发送至同一设备的两个或更多接口，从而导致丢包<br>
+⚫️	启动安全措施缓解特洛伊木马<br>
+⚫️	一次性下载并安装太多软件更新<br>
+⚫️	将 Telnet 等重复连接发送至特定设备，从而拒绝其他数据源<br>
+<b href="#" style="color:red;" >⚫️	试图将太多数据写入某内存位置，超出该位置能容纳的数据量</b></p>
+<p><b>在安全攻击中，僵尸以哪种方式使用？</b><br>
+<b href="#" style="color:red;" >⚫️	它们是执行 DDoS 攻击的受感染的机器。</b><br>
+⚫️	它们是恶意形成的代码段，用于取代合法应用。<br>
+⚫️	它们以特定的个人为目标以获取公司或个人信息。<br>
+⚫️	它们探查一组机器的开放端口，以了解正在运行哪些服务。、</p>
+<p><b>攻击者对网络系统发起访问攻击的主要目的是什么？</b><br>
+<b href="#" style="color:red;" >⚫️	检索数据</b><br>
+⚫️	收集有关网络的信息<br>
+⚫️	防止其他用户访问系统<br>
+⚫️	扫描可访问网络</p>
+<p><b>什么是 ping 扫描？</b><br>
+⚫️	一种查询和响应协议，用于标识域相关信息，包括分配给该域的地址。<br>
+⚫️	一种软件应用，可捕获通过局域网发送的所有网络数据包。<br>
+⚫️	一种扫描技术，检查主机上的一系列 TCP 或 UDP 端口号以检测侦听服务。<br>
+<b href="#" style="color:red;" >⚫️	一种网络扫描技术，用于指示一系列 IP 地址中的动态主机。</b></p>
+<p><b>哪个安全威胁被安装在计算机上并且不为用户所知，这种威胁可监控计算机的活动？</b><br>
+⚫️	病毒<br>
+⚫️	广告软件<br>
+⚫️	蠕虫<br>
+<b href="#" style="color:red;" >⚫️	间谍软件</b></p>
+<p><b>哪种访问攻击方法涉及试图通过使用电子词典发现系统密码的软件程序？</b><br>
+⚫️	数据包嗅探攻击<br>
+⚫️	端口重定向攻击<br>
+⚫️	缓冲区溢出攻击<br>
+⚫️	IP 欺骗攻击<br>
+⚫️	拒绝服务攻击<br>
+<b href="#" style="color:red;" >⚫️	暴力攻击</b></p>
+<p><b>哪种类型的特洛伊木马安全漏洞使用受害者计算机作为源设备发起其他攻击？</b><br>
+⚫️	FTP<br>
+⚫️	数据发送<br>
+⚫️	DoS<br>
+<b href="#" style="color:red;" >⚫️	代理</b></p>
+<p><b>黑客使用的两种规避方法是什么？（选择两项。）</b><br>
+<b href="#" style="color:red;" >⚫️	资源耗竭</b><br>
+<b href="#" style="color:red;" >⚫️	加密</b><br>
+⚫️	扫描<br>
+⚫️	网络钓鱼<br>
+⚫️	访问攻击</p>
+<p><b>以下哪个术语是指恶意方发送伪装成合法、可信来源的欺诈邮件？</b><br>
+⚫️	后门<br>
+⚫️	语音网络钓鱼<br>
+⚫️	特洛伊木马<br>
+<b href="#" style="color:red;" >⚫️	网络钓鱼</b></p>
+<p><b>为什么黑客会使用 rootkit？</b><br>
+⚫️	反向工程二进制文件<br>
+⚫️	执行侦查跟踪<br>
+⚫️	尝试猜测密码<br>
+<b href="#" style="color:red;" >⚫️	无需检测时逃避检测</b></p>
+<p><img src="https://longwoif.github.io/post-images/1650728253373.png" alt="" loading="lazy"><br>
+<b>什么是僵尸网络？</b><br>
+⚫️	提供负载均衡和容错的一组 Web 服务器<br>
+<b href="#" style="color:red;" >⚫️	作为一组已被控制的受感染计算机网络</b><br>
+⚫️	一款面向多玩家的在线视频游戏<br>
+⚫️	允许用户自带技术的网络</p>
+<p><b>为重获对邮件和数据服务器的控制，公司向黑客支付大笔资金。黑客使用哪种类型的安全攻击？</b><br>
+<b href="#" style="color:red;" >⚫️	勒索软件</b><br>
+⚫️	特洛伊木马<br>
+⚫️	DoS<br>
+⚫️	间谍软件</p>
+<p><b>蠕虫攻击的三大组成部分是什么？（选择三项。）</b><br>
+⚫️	探测机制<br>
+⚫️	渗透机制<br>
+<b href="#" style="color:red;" >⚫️	启用漏洞</b><br>
+<b href="#" style="color:red;" >⚫️	负载</b><br>
+⚫️	感染漏洞<br>
+<b href="#" style="color:red;" >⚫️	传播机制</b></p>
+<p><b>DoS 攻击的主要目标是什么？</b><br>
+⚫️	扫描目标服务器上的数据<br>
+⚫️	获得服务器地址簿中的所有地址<br>
+⚫️	方便访问外部网络<br>
+<b href="#" style="color:red;" >⚫️	阻止目标服务器处理其它请求</b></p>
+<p><b>白帽攻击者的动机是什么？</b><br>
+⚫️	学习各种平台的操作系统以开发新的系统<br>
+⚫️	微调网络设备以提高它们的性能和效率<br>
+⚫️	利用任何漏洞获取非法的个人利益<br>
+<b href="#" style="color:red;" >⚫️	发现网络和系统中的弱点以提高这些系统的安全级别</b></p>
+<p><b>何类型恶意软件的主要目标是通过网络传播？</b><br>
+<b href="#" style="color:red;" >⚫️	蠕虫</b><br>
+⚫️	特洛伊木马<br>
+⚫️	僵尸网络<br>
+⚫️	病毒</p>
+<p><b>哪种类型的安全攻击会导致缓冲区溢出？</b><br>
+⚫️	假冒安全软件<br>
+<b href="#" style="color:red;" >⚫️	DoS</b><br>
+⚫️	勒索软件<br>
+⚫️	侦查跟踪</p>
+<p><b>用户对某人可能如何知悉计算机已感染恶意软件感到好奇。以下哪两项是常见的恶意软件行为？（选择两项。）</b><br>
+<b href="#" style="color:red;" >⚫️	计算机响应速度越来越慢。</b><br>
+<b href="#" style="color:red;" >⚫️	计算机冻结，并需要重新启动。</b><br>
+⚫️	计算机在启动过程中发出哔哔声。<br>
+⚫️	播放音频 CD 时未发出声音。<br>
+⚫️	每次使用卷笔刀时，计算机会发出嘶嘶声。</p>
+<p><b>老年人在计算机上收到一条警告，说明操作系统注册表损坏，并点击特定链路予以修复。哪类恶意软件用于试图创建用户对计算机威胁的感知？</b><br>
+⚫️	DoS<br>
+⚫️	网络钓鱼<br>
+⚫️	广告软件<br>
+<b href="#" style="color:red;" >⚫️	假冒安全软件</b></p>
+<p><b>与网络安全有关的特洛伊木马的特征是什么？</b><br>
+⚫️	使用电子词典获取用于渗透关键网络设备的密码。<br>
+<b href="#" style="color:red;" >⚫️	恶意软件包含在看似合法的可执行程序中。</b><br>
+⚫️	太多的信息被定向至特定内存块，从而导致更多的内存区域受到影响。<br>
+⚫️	极端数量的数据被发送至特定网络设备接口。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第5章考试]]></title>
+        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-5-zhang-kao-shi/</id>
+        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-5-zhang-kao-shi/">
+        </link>
+        <updated>2022-04-03T15:27:37.000Z</updated>
+        <content type="html"><![CDATA[<p><b>访问控制列表的两大用途是什么？（选择两项。）</b><br>
+<b href="#" style="color:red;" >⚫️	ACL 提供基本的网络安全性</b><br>
+⚫️	ACL 可以根据路由器上的始发 MAC 地址来允许或拒绝流量。<br>
+<b href="#" style="color:red;" >⚫️	ACL 可以控制主机能够访问网络中的哪些区域。</b><br>
+⚫️	ACL 可以帮助路由器确定到目的地的最佳路径。<br>
+⚫️	标准 ACL 可限制对特定应用程序和端口的访问。</p>
+<p><b>网络终端设备上可见的两种类型的地址是什么？（选择两项。）</b><br>
+⚫️	UDP<br>
+<b href="#" style="color:red;" >⚫️	MAC</b><br>
+⚫️	返回<br>
+<b href="#" style="color:red;" >⚫️	IP</b><br>
+⚫️	TCP</p>
+<p><b>IPS 的作用是什么？</b><br>
+<b href="#" style="color:red;" >⚫️	通过使用签名文件检测恶意流量的模式</b><br>
+⚫️	基于数据包内容实施访问控制策略<br>
+⚫️	根据第 7 层信息过滤流量<br>
+⚫️	根据定义的规则和连接上下文过滤流量</p>
+<p><b>思科路由器正在运行 IOS 15。网络管理员启动接口并为接口分配 IP 地址时，将添加哪两种路由表条目类型？（选择两项。）</b><br>
+⚫️	通过 EIGRP 学习的路由<br>
+⚫️	由网络管理员手动输入的路由<br>
+<b href="#" style="color:red;" >⚫️	本地路由接口</b><br>
+<b href="#" style="color:red;" >⚫️	直连接口</b><br>
+⚫️	通过 OSPF 学习的路由</p>
+<p><b>代理防火墙的功能是什么？</b><br>
+⚫️	根据数据包报头信息丢弃或转发流量<br>
+<b href="#" style="color:red;" >⚫️	代表客户端连接到远程服务器</b><br>
+⚫️	过滤桥接接口间的 IP 流量<br>
+⚫️	使用签名来检测网络流量中的模式</p>
+<p><b>无线接入点使用哪一无线参数广播包含 SSID 的帧？</b><br>
+<b href="#" style="color:red;" >⚫️	被动模式</b><br>
+⚫️	主动模式<br>
+⚫️	安全模式<br>
+⚫️	通道设置</p>
+<p><b>在哪个发现模式下 AP 会在 WLAN 上生成大多数流量？</b><br>
+<b href="#" style="color:red;" >⚫️	被动模式</b><br>
+⚫️	混合模式<br>
+⚫️	打开模式<br>
+⚫️	主动模式</p>
+<p><b>哪一局域网拓扑结构需要中间设备连接终端设备？</b><br>
+<b href="#" style="color:red;" >⚫️	星型</b><br>
+⚫️	环型<br>
+⚫️	网状<br>
+⚫️	总线</p>
+<p><b>TACACS + 和 RADIUS 这两个协议都包含以下哪两项功能？（选择两项。）</b><br>
+<b href="#" style="color:red;" >⚫️	密码加密</b><br>
+⚫️	802.1X 支持<br>
+⚫️	SIP 支持<br>
+<b href="#" style="color:red;" >⚫️	传输层协议的使用</b><br>
+⚫️	分离身份验证和授权过程</p>
+<p><b>下列哪种协议或服务用于自动同步思科路由器上的软件时钟？</b><br>
+⚫️	DHCP<br>
+⚫️	SNMP<br>
+<b href="#" style="color:red;" >⚫️	NTP</b><br>
+⚫️	DNS</p>
+<p><b>配置家庭无线 AP 时，通常使用哪一参数标识无线网名称？</b><br>
+<b href="#" style="color:red;" >⚫️	SSID</b><br>
+⚫️	对等<br>
+⚫️	ESS<br>
+⚫️	BESS</p>
+<p><b>TACACS+ 协议在 AAA 部署中提供什么？</b><br>
+⚫️	密码加密而不加密数据包<br>
+<b href="#" style="color:red;" >⚫️	按用户或组提供授权</b><br>
+⚫️	通过 UDP 的 AAA 连接<br>
+⚫️	与先前的 TACACS 协议兼容</p>
+<p><b>当在局域网段之间转发时，路由器用新的寻址信息覆写哪一 OSI 层头？</b><br>
+⚫️	第 3 层<br>
+⚫️	第 4 层<br>
+⚫️	第 7 层<br>
+<b href="#" style="color:red;" >⚫️	第 2 层</b></p>
+<p><b>路由器使用数据包中的什么信息来作出转发决定？</b><br>
+⚫️	目的 MAC 地址<br>
+⚫️	目的主机名称<br>
+<b href="#" style="color:red;" >⚫️	目的 IP 地址</b><br>
+⚫️	所请求的目的服务</p>
+<p><b>分层设计模型的哪一层是其他层之间的控制边界？ </b><br>
+⚫️	接入层<br>
+⚫️	核心层<br>
+⚫️	网络层<br>
+<b href="#" style="color:red;" >⚫️	分布层</b></p>
+<p><b>标准访问控制列表用于识别流量的唯一属性是什么？</b><br>
+⚫️	源 MAC 地址<br>
+⚫️	源 TCP 端口<br>
+⚫️	协议类型<br>
+<b href="#" style="color:red;" >⚫️	源 IP 地址</b></p>
+<p><b>TACACS+ 协议的功能是什么？</b><br>
+<b href="#" style="color:red;" >⚫️	加密整个数据包的主体，以实现更安全的通信。</b><br>
+⚫️	使用 PAP 传输期间隐藏密码，并以明文形式发送其余数据包。<br>
+⚫️	将身份验证和授权合并为一个流程。<br>
+⚫️	利用 UDP 提供更有效的数据包传输。</p>
+<p><b>三层网络设计模型的分布层功能是什么？</b><br>
+⚫️	提供网络边缘的高速连接<br>
+<b href="#" style="color:red;" >⚫️	聚合接入层连接</b><br>
+⚫️	提供对网络的直接访问<br>
+⚫️	提供对互联网的安全访问</p>
+<p><b>哪种设备可控制和管理大量企业 AP？</b><br>
+⚫️	交换机<br>
+⚫️	LWAP<br>
+<b href="#" style="color:red;" >⚫️	WLC</b><br>
+⚫️	路由器</p>
+<p><b>哪种协议创建虚拟的点对点连接，以通过各种协议在思科路由器间传输未加密流量？</b><br>
+⚫️	OSPF<br>
+⚫️	IKE<br>
+⚫️	IPSec<br>
+<b href="#" style="color:red;" >⚫️	GRE</b></p>
+<p><img src="https://longwoif.github.io/post-images/1650727880892.png" alt="" loading="lazy"><br>
+<b>请参见图示。网络 &quot;A&quot; 包含多台可通过互联网主机进行访问以了解企业相关信息的企业服务器。用于描述标记为 &quot;A&quot; 的网络的术语是什么？</b><br>
+⚫️	周边安全边界<br>
+⚫️	内网<br>
+⚫️	不受信任网络<br>
+<b href="#" style="color:red;" >⚫️	DMZ</b></p>
+<p><b>允许网络管理员接收网络服务提供的系统消息的协议或服务是什么？</b><br>
+<b href="#" style="color:red;" >⚫️	系统日志</b><br>
+⚫️	NTP<br>
+⚫️	SNMP<br>
+⚫️	NetFlow</p>
+<p><b>下列关于企业网络中的 NTP 服务器的陈述中，哪两项是正确的？（请选择两项。）</b><br>
+<b href="#" style="color:red;" >⚫️	第 1 层 NTP 服务器直接连接到权威时间源。</b><br>
+⚫️	NTP 服务器控制关键网络设备的平均无故障工作时间 (MTBF)。<br>
+⚫️	一个企业网络中只能有一台 NTP 服务器。<br>
+⚫️	所有 NTP 服务器都直接与第 1 层时间源同步。<br>
+<b href="#" style="color:red;" >⚫️	NTP 服务器确保日志记录和调试信息具有正确的时间戳。</b></p>
+<p><b>有关物理拓扑和逻辑拓扑的陈述，下列哪一项正确？</b><br>
+⚫️	物理拓扑与网络传输帧的方法有关。<br>
+<b href="#" style="color:red;" >⚫️	逻辑拓扑是指网络在设备之间传输数据的方法。</b><br>
+⚫️	逻辑拓扑始终与物理拓扑相同。<br>
+⚫️	物理拓扑显示每个网络的 IP 编址方案。</p>
+<p><b>哪种协议提供身份验证、完整性和保密性服务，且是一种 VPN？</b><br>
+<b href="#" style="color:red;" >⚫️	IPSec</b><br>
+⚫️	AES<br>
+⚫️	MD5<br>
+⚫️	ESP</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第4章考试]]></title>
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-4-zhang-kao-shi/</id>
         <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-4-zhang-kao-shi/">
         </link>
-        <updated>2022-02-27T13:50:18.000Z</updated>
+        <updated>2022-03-13T13:50:18.000Z</updated>
         <content type="html"><![CDATA[<p><b>当主机网卡收到来自网络介质的位时，将使用哪种 PDU 格式？</b><br>
 <b href="#" style="color:red;" >⚫️	帧</b><br>
 ⚫️	文件<br>
