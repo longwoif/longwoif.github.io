@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的网站</title>
-    <updated>2022-04-23T16:21:03.572Z</updated>
+    <updated>2022-04-26T09:21:32.336Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://longwoif.github.io/images/avatar.png</logo>
     <icon>https://longwoif.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 玄夜冥的网站</rights>
+    <entry>
+        <title type="html"><![CDATA[获奖情况——样板更新于2022.4.26]]></title>
+        <id>https://longwoif.github.io/post/huo-jiang-qing-kuang/</id>
+        <link href="https://longwoif.github.io/post/huo-jiang-qing-kuang/">
+        </link>
+        <updated>2022-04-26T09:20:07.000Z</updated>
+        <content type="html"><![CDATA[<p>入党积极分子结业<br>
+青马班结业<br>
+“1+X”WEB前端开发初级认证<br>
+2021年荣获校团委颁发“优秀志愿者”荣誉称号</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大学个人总结——样板更新于2022.4.26]]></title>
+        <id>https://longwoif.github.io/post/da-xue-ge-ren-zong-jie/</id>
+        <link href="https://longwoif.github.io/post/da-xue-ge-ren-zong-jie/">
+        </link>
+        <updated>2022-04-26T09:18:45.000Z</updated>
+        <content type="html"><![CDATA[<p>在学习上，我积极与老师交流，热心帮助同学，积极参与专业技能比赛，在本学年考取了学校1+X”WEB前端开发初级证书。<br>
+在工作上，我认真对待工作，积极宣传学校、班级活动并鼓励班级同学参加，认真准备班会ppt与班级活动策划。<br>
+在思想上，我认真学习“科学发展观”重要思想和党的路线、方针、政策问题。不断提高自身的思想觉悟积极向党组织靠拢，大一向团支部提交了入党积极分子申请书，参与了青马班与入党积极分子培训于本学年顺利结业。<br>
+在生活中，我积极参与社区志愿活动，再今年寒假于社区担任志愿者，配合社区工作人员进行新冠疫苗接种排查、核酸检测信息录入等工作。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第6章考试]]></title>
         <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-6-zhang-kao-shi/</id>
@@ -1348,209 +1372,6 @@ Refer to curriculum topic: 2.1.1<br>
 反馈<br>
 Refer to curriculum topic: 2.1.1<br>
 正确答案是：<b href="#" style="color:red;" >错误</b></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第1章考试]]></title>
-        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-kao-shi/</id>
-        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-kao-shi/">
-        </link>
-        <updated>2022-02-13T12:59:00.000Z</updated>
-        <content type="html"><![CDATA[<p><b>在 SOC 运营中，哪一系统常用于让分析人员从警报池中选择警报进行调查？</b><br>
-⚫️	系统日志服务器<br>
-⚫️	注册系统<br>
-⚫️	基于安全警报知识的系统<br>
-<b href="#" style="color:red;" >⚫️	故障单系统</b></p>
-<p><b>验证监控软件所触发的警报是否代表真正安全事件这一任务分配给 SOC 中的哪些人员？</b><br>
-⚫️	三级人员<br>
-⚫️	二级人员<br>
-⚫️	SOC 经理<br>
-<b href="#" style="color:red;" >⚫️	一级人员</b></p>
-<p><b>SOC 中的安全信息和事件管理系统 (SIEM) 如何帮助人员抵御安全威胁？</b><br>
-<b href="#" style="color:red;" >⚫️	通过结合来自多种技术的数据</b><br>
-⚫️	通过实时分析日志记录数据<br>
-⚫️	通过动态实现防火墙规则<br>
-⚫️	通过将所有安全设备和家电集成到组织中</p>
-<p><b>在 SOC 安全信息和事件管理系统中应包含哪三项技术？（选择三项。）</b><br>
-⚫️	代理服务<br>
-⚫️	防火墙设备<br>
-<b href="#" style="color:red;" >⚫️	威胁情报</b><br>
-⚫️	入侵防御<br>
-<b href="#" style="color:red;" >⚫️	安全监控</b><br>
-<b href="#" style="color:red;" >⚫️	日志管理</b></p>
-<p><b>业余黑客称为什么？</b><br>
-<b href="#" style="color:red;" >⚫️	脚本小子</b><br>
-⚫️	蓝队<br>
-⚫️	红帽黑客<br>
-⚫️	黑帽黑客</p>
-<p><b>以下哪种说法正确描述了网络战？</b><br>
-⚫️	它是为空军飞行员提供的模拟软件，让飞行员能够在模拟的战争场景中进行练习。<br>
-⚫️	它是为被卷入核战争的士兵开发的一系列个人防护设备。<br>
-⚫️	网络战是由一伙“脚本小子”执行的攻击。<br>
-<b href="#" style="color:red;" >⚫️	它是互联网上的对抗，涉及向其他国家/地区的信息系统渗透的活动。</b></p>
-<p><b>IoT 设备为什么会造成比网络上的其他计算设备更大的风险？</b><br>
-⚫️	大多数 IoT 设备不需要互联网连接，并且无法接收新的更新。<br>
-<b href="#" style="color:red;" >⚫️	大多数 IoT 设备不接收频繁的固件更新。</b><br>
-⚫️	IoT 设备需要使用未加密的无线连接。<br>
-⚫️	IoT 设备不能在只有互联网连接的隔离网络上运行。</p>
-<p><b>哪一组织提供厂商中立的 CSA+ 认证？</b><br>
-⚫️	GIAC<br>
-<b href="#" style="color:red;" >⚫️	CompTIA</b><br>
-⚫️	(ISC)²<br>
-⚫️	IEEE</p>
-<p><b>如果 SOC 具有 99.999% 的运行时间目标，则在目标范围内每年应有多少分钟的停机时间？</b><br>
-⚫️	每年不超过 10 分钟。<br>
-⚫️	每年不超过 1 分钟。<br>
-⚫️	每年不超过 30 分钟。<br>
-<b href="#" style="color:red;" >⚫️	每年不超过 5 分钟。</b></p>
-<p><b>哪一项可以作为网络战武器攻击伊朗的铀浓缩设施?</b><br>
-⚫️	SQL 注入<br>
-<b href="#" style="color:red;" >⚫️	Stuxnet</b><br>
-⚫️	PSYOPS<br>
-⚫️	DDoS</p>
-<p><b>以下哪项陈述最准确地描述了激进黑客的动机？</b><br>
-<b href="#" style="color:red;" >⚫️	他们属于政治原因导致的抗议群体。</b><br>
-⚫️	他们很好奇并学习黑客技能。<br>
-⚫️	他们对发现新的攻击漏洞很感兴趣。<br>
-⚫️	他们试图炫耀自己的黑客技能。</p>
-<p><b>安全运营中心提供哪两项服务？（选择两项。）</b><br>
-⚫️	响应数据中心的入侵<br>
-⚫️	确保安全路由数据包交换<br>
-<b href="#" style="color:red;" >⚫️	监控网络安全威胁</b><br>
-⚫️	提供安全互联网连接<br>
-<b href="#" style="color:red;" >⚫️	管理全面威胁解决方案</b></p>
-<p><b>搜寻潜在威胁和实施威胁检测工具的这一任务分配给 SOC 中的哪些人员？</b><br>
-⚫️	一级分析师<br>
-<b href="#" style="color:red;" >⚫️	三级 SME</b><br>
-⚫️	SOC 经理<br>
-⚫️	二级事件响应人员</p>
-<p><b>用户报告无法访问主服务器上的数据库文件。数据库管理员验证了该问题，并注意到该数据库文件现在已加密。组织收到一封威胁邮件，要求其支付一定的费用以解密该数据库文件。该组织遭受的是什么类型的攻击？</b><br>
-⚫️	特洛伊木马<br>
-⚫️	中间人攻击<br>
-⚫️	DoS 攻击<br>
-<b href="#" style="color:red;" >⚫️	勒索软件</b></p>
-<p><b>在公共场所使用免费和开放的无线热点有什么潜在风险？</b><br>
-⚫️	可能需要向供应商购买产品以换取互联网接入。<br>
-⚫️	尝试连接至互联网的用户过多可能会导致网络拥塞。<br>
-⚫️	许多用户访问无线热点时，互联网连接可能变得太慢。<br>
-<b href="#" style="color:red;" >⚫️	网络流量可能遭劫持，且信息被盗。</b></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第1章测验]]></title>
-        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-ce-yan/</id>
-        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-1-zhang-ce-yan/">
-        </link>
-        <updated>2022-02-13T12:30:46.000Z</updated>
-        <content type="html"><![CDATA[<p><b>什么是非法无线热点？</b><br>
-选择一项：<br>
-⚫️它是使用过时设备设置的热点。<br>
-⚫️它是不加密网络用户流量的热点。<br>
-⚫️它是不实施强用户身份验证机制的热点。<br>
-⚫️它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。<br>
-反馈<br>
-Refer to curriculum topic: 1.1.1<br>
-非法无线热点是指在未经企业或组织正式许可的情况下在企业或组织中运行的无线接入点。<br>
-正确答案是：<b href="#" style="color:red;" >它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。</b></p>
-<p><b>如何使用 SOC 中的安全信息和事件管理系统帮助相关人员抵御安全威胁？</b><br>
-选择一项：<br>
-⚫️通过过滤网络流量<br>
-⚫️通过收集和过滤数据<br>
-⚫️通过对网络资源的用户进行身份验证<br>
-⚫️通过对远程站点的通信进行加密<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-安全信息和事件管理系统 (SIEM) 结合多个来源的数据，帮助 SOC 人员收集和过滤数据，检测威胁并对其进行分类，分析和调查威胁，管理资源以实施预防措施。<br>
-正确答案是：<b href="#" style="color:red;" >通过收集和过滤数据</b></p>
-<p><b>术语“网络运营分析师”指的是 SOC 中的哪一群人员？</b><br>
-选择一项：<br>
-⚫️SOC 经理<br>
-⚫️一级人员<br>
-⚫️二级人员<br>
-⚫️三级人员<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-在典型的 SOC 中，一级人员被称为警报分析师，也称为网络运营分析师。<br>
-正确答案是：<b href="#" style="color:red;" >一级人员</b></p>
-<p><b>计算机在允许同一用户访问用户数据之前，向用户显示要求付款的屏幕。该恶意软件属于哪一类型？</b><br>
-选择一项：<br>
-⚫️一种病毒<br>
-⚫️一种逻辑炸弹<br>
-⚫️一种蠕虫<br>
-⚫️一种勒索软件<br>
-反馈<br>
-Refer to curriculum topic: 1.1.1<br>
-勒索软件通常加密计算机上的数据，并使数据不可用，直到计算机用户支付特定金额的赎金。<br>
-正确答案是：<b href="#" style="color:red;" >一种勒索软件</b></p>
-<p><b>出于政治或社会原因进行黑客攻击的黑客称为什么？</b><br>
-选择一项：<br>
-⚫️白帽黑客<br>
-⚫️黑客<br>
-⚫️蓝帽黑客<br>
-⚫️激进黑客<br>
-反馈<br>
-Refer to curriculum topic: 1.1.2<br>
-该术语用于描述因某种正义原因聚集并提供保护的灰帽黑客。<br>
-正确答案是：<b href="#" style="color:red;" >激进黑客</b></p>
-<p><b>在 SOC 安全信息和事件管理系统中应包含哪三项技术？（选择三项。）</b><br>
-选择一项或多项：<br>
-⚫️代理服务<br>
-⚫️威胁情报<br>
-⚫️安全监控<br>
-⚫️用户身份验证<br>
-⚫️入侵防御<br>
-⚫️事件收集、关联和分析<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-SOC 中的技术应包括以下内容：<br>
-事件收集、关联和分析<br>
-安全监控<br>
-安全控制<br>
-日志管理<br>
-漏洞评估<br>
-漏洞跟踪<br>
-威胁情报<br>
-代理服务器、用户身份验证和 IPS 是在网络基础设施中部署并由 NOC 管理的安全设备和机制。<br>
-正确答案是：<b href="#" style="color:red;" >威胁情报, 安全监控, 事件收集、关联和分析</b></p>
-<p><b>什么是网络战？</b><br>
-选择一项：<br>
-⚫️网络战仅攻击军事目标。<br>
-⚫️网络战旨在破坏或损坏国家利益。<br>
-⚫️网络战是对大公司的攻击。<br>
-⚫️网络战是一个只涉及机器人和机器人之间的攻击的战争。<br>
-反馈<br>
-Refer to curriculum topic: 1.1.3<br>
-参考课程主题：5.1<br>
-本题目基于演讲中的内容信息。<br>
-网络战是信息战（IW）的子集。 它的目标是破坏(可用性)、损坏(完整性)或利用(保密或隐私)。 它可以直接针对军事力量,关键的基础设施,或其他国家利益,如经济目标。 它涉及协同工作的许多团队。 僵尸网络可能是用于发起攻击的工具之一。<br>
-正确答案是：<b href="#" style="color:red;" >网络战旨在破坏或损坏国家利益</b></p>
-<p><b>哪个组织是提供 CISSP 认证的国际非营利性组织？</b><br>
-选择一项：<br>
-⚫️IEEE<br>
-⚫️GIAC<br>
-⚫️(ISC)2<br>
-⚫️CompTIA<br>
-反馈<br>
-Refer to curriculum topic: 1.2.2<br>
-(ISC)² 是一个提供 CISSP 认证的国际非营利性组织。<br>
-正确答案是：<b href="#" style="color:red;" >(ISC)2</b></p>
-<p><b>将职称与 SOC 人员职责进行匹配。（并非所有选项都会用到。）</b><br>
-⚫️三级主题专家<br>
-⚫️二级事件响应人员<br>
-⚫️一级警报分析师<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-正确答案是：<b href="#" style="color:red;" >三级主题专家 → 参与潜在危险的搜索并实施威胁检测工具, 二级事件响应人员 → 参与事件的深入调查, 一级警报分析师 → 监控收到的警报并验证是否确实发生了事件</b></p>
-<p><b>在 SOC 中验证安全事件之后，事件响应人员将检查事件，但无法识别事件的来源并形成有效的缓解程序。事件故障单应向谁上报？</b><br>
-选择一项：<br>
-⚫️SME，以便进行进一步调查<br>
-⚫️网络运营分析师，以寻求帮助<br>
-⚫️警报分析师，以便进行进一步分析<br>
-⚫️SOC 经理，以要求指派其他人员<br>
-反馈<br>
-Refer to curriculum topic: 1.2.1<br>
-事件响应人员是 SOC 中的二级安全专业人员。如果响应人员无法解决事件故障单，则应将事件故障单上报给下一级支持人员，即三级人员。3 级 SME 将进一步调查事件。<br>
-正确答案是：<b href="#" style="color:red;" >SME，以便进行进一步调查</b></p>
 ]]></content>
     </entry>
 </feed>
