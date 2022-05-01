@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的网站</title>
-    <updated>2022-04-26T09:21:42.060Z</updated>
+    <updated>2022-05-01T08:16:56.222Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://longwoif.github.io/images/avatar.png</logo>
     <icon>https://longwoif.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 玄夜冥的网站</rights>
+    <entry>
+        <title type="html"><![CDATA[PT路由器配置扩展ACL（非思科）]]></title>
+        <id>https://longwoif.github.io/post/pt-lu-you-qi-pei-zhi-kuo-zhan-aclfei-si-ke/</id>
+        <link href="https://longwoif.github.io/post/pt-lu-you-qi-pei-zhi-kuo-zhan-aclfei-si-ke/">
+        </link>
+        <updated>2022-05-01T08:11:47.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://longwoif.github.io/post-images/1651392771310.png" alt="" loading="lazy"><br>
+在路由器R1配置模式下输入命令<br>
+access-list 102 permit tcp host 192.168.40.100 host 192.168.30.100 eq ftp<br>
+access-list 102 deny tcp host 192.168.40.101 host 192.168.50.100 eq www<br>
+access-list 102 permit ip any any</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[获奖情况——样板更新于2022.4.26]]></title>
         <id>https://longwoif.github.io/post/huo-jiang-qing-kuang/</id>
@@ -1226,152 +1239,6 @@ Linux 是一个开源操作系统，任何人均可访问源代码，并对其�
 <b href="#" style="color:red;" >⚫️	提供有关系统资源和进程的信息。</b><br>
 ⚫️	维护系统日志。<br>
 ⚫️	提供活动的 TCP 连接列表。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第2章测验]]></title>
-        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-2-zhang-ce-yan/</id>
-        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-2-zhang-ce-yan/">
-        </link>
-        <updated>2022-02-20T12:30:50.000Z</updated>
-        <content type="html"><![CDATA[<p><b>用户如何才能阻止特定应用程序通过网络访问 Windows 计算机？</b><br>
-选择一项：<br>
-⚫️	启用 MAC 地址过滤。<br>
-⚫️	禁用自动 IP 地址分配。<br>
-⚫️	在 Windows 防火墙中阻止特定的 TCP 或 UDP 端口。<br>
-⚫️	更改默认的用户名和密码。<br>
-反馈<br>
-Refer to curriculum topic: 2.2.2<br>
-网络应用程序具有可以在 Windows 防火墙中打开或阻止的特定 TCP 或 UDP 端口。禁用自动 IP 地址分配可能会导致计算机根本无法连接到网络。启用 MAC 地址过滤在 Windows 中不可能实现，并且该操作仅阻止特定的网络主机而不阻止应用程序。更改默认的用户名和密码可以保护计算机不被未经授权的用户访问，但不能阻止应用程序访问。<br>
-正确答案是：<b href="#" style="color:red;" >在 Windows 防火墙中阻止特定的 TCP 或 UDP 端口。</b></p>
-<p><b>什么包含有关如何组织硬盘驱动器分区的信息？</b><br>
-选择一项：<br>
-⚫️	MBR<br>
-⚫️	CPU<br>
-⚫️	BOOTMGR<br>
-⚫️	Windows 注册表<br>
-反馈<br>
-Refer to curriculum topic: 2.1.2<br>
-正确答案是：<b href="#" style="color:red;" >MBR</b></p>
-<p><b>哪个实用程序用于显示每个用户消耗的系统资源？</b><br>
-选择一项：<br>
-⚫️	任务管理器<br>
-⚫️	用户帐户<br>
-⚫️	设备管理器<br>
-⚫️	事件查看器<br>
-反馈<br>
-Refer to curriculum topic: 2.2.1<br>
-Windows 任务管理器实用程序包括一个“用户”选项卡，该选项可显示每个用户消耗的系统资源。<br>
-正确答案是：<b href="#" style="color:red;" >任务管理器</b></p>
-<p><b>本地网络上的一台主机发出两个 ping 命令。第一个 ping 命令针对主机的默认网关 IP 地址，命令失败。第二个 ping 命令针对本地网络外主机的 IP 地址，命令成功。第一个 ping 命令失败的原因可能是什么？</b><br>
-选择一项：<br>
-⚫️	默认网关设备配置了错误的 IP 地址。<br>
-⚫️	默认网关设备应用了安全规则，阻止其处理 ping 请求。<br>
-⚫️	默认网关运行不正常。<br>
-⚫️	默认网关上的 TCP/IP 协议栈运行不正常。<br>
-反馈<br>
-Refer to curriculum topic: 2.2.1<br>
-如果从一台主机向远程网络上的另一台主机执行 ping 操作成功，说明默认网关运行正常。在这种情况下，如果从一台主机向默认网关执行 ping 操作失败，则路由器接口可能应用了某些安全功能，阻止其响应 ping 请求。<br>
-正确答案是：<b href="#" style="color:red;" >默认网关设备应用了安全规则，阻止其处理 ping 请求。</b></p>
-<p><b>32 位版本 Windows 可寻址多少 RAM？</b><br>
-选择一项：<br>
-⚫️	4 GB<br>
-⚫️	8 GB<br>
-⚫️	16 GB<br>
-⚫️	32 GB<br>
-反馈<br>
-Refer to curriculum topic: 2.1.1<br>
-32 位操作系统能够支持约 4 GB 的内存。这是因为 2^32 约为 4 GB。<br>
-正确答案是：<b href="#" style="color:red;" >4 GB</b></p>
-<p><b>cd\ 命令有什么用途？</b><br>
-选择一项：<br>
-⚫️	将目录更改为根目录<br>
-⚫️	将目录更改为下一个最高目录<br>
-⚫️	将目录更改为前一个目录<br>
-⚫️	将目录更改为下一个下层目录<br>
-反馈<br>
-Refer to curriculum topic: 2.1.1<br>
-在 Windows 操作系统的“命令提示符”窗口中键入 CLI 命令。cd\ 命令用于将目录更改为 Windows 根目录。<br>
-正确答案是：<b href="#" style="color:red;" >将目录更改为根目录</b></p>
-<p><b>用户在 Windows 中创建扩展名为 .ps1 的文件。它是哪种类型的文件？</b><br>
-选择一项：<br>
-⚫️	PowerShell 脚本<br>
-⚫️	PowerShell cmdlet<br>
-⚫️	PowerShell 函数<br>
-⚫️	PowerShell 文档<br>
-反馈<br>
-Refer to curriculum topic: 2.2.1<br>
-PowerShell 可执行的命令包括以下几类：<br>
-cmdlets - 执行操作并将输出或对象返回将要执行的下一个命令<br>
-PowerShell 脚本 - 包含待执行 PowerShell 命令、扩展名为 .ps1 的文件<br>
-PowerShell 函数 - 可在脚本中引用的代码<br>
-正确答案是：<b href="#" style="color:red;" >PowerShell 脚本</b></p>
-<p><b>当用户对 Windows 系统的设置进行更改时，这些更改存储在何处？</b><br>
-选择一项：<br>
-⚫️	注册表<br>
-⚫️	控制面板<br>
-⚫️	win.ini<br>
-⚫️	boot.ini<br>
-反馈<br>
-Refer to curriculum topic: 2.1.2<br>
-注册表包含有关应用程序、用户、硬件、网络设置和文件类型的信息。注册表还包含每个用户的特有部分，其中包含该特定用户配置的设置。<br>
-正确答案是：<b href="#" style="color:red;" >注册表</b></p>
-<p><b>在 Windows PC 上使用哪种 net 命令建立远程服务器上的共享目录连接？</b><br>
-选择一项：<br>
-⚫️	net use<br>
-⚫️	net start<br>
-⚫️	net share<br>
-⚫️	net session<br>
-反馈<br>
-Refer to curriculum topic: 2.2.1<br>
-net 命令是 Windows 中非常重要的命令。一些常见的 net 命令包括下列各项：<br>
-net accounts - 为用户设置密码和登录要求<br>
-net session - 列出或断开网络上的一台计算机和其他计算机之间的会话<br>
-net share - 创建、删除或管理共享资源<br>
-net start - 启动网络服务或列出运行中的网络服务<br>
-net stop - 停止网络服务<br>
-net use - 连接和断开共享网络资源以及显示相关信息<br>
-net view - 显示网络上的计算机和网络设备列表<br>
-正确答案是：<b href="#" style="color:red;" >net use</b></p>
-<p><b>对于每次计算机启动时都应运行的服务，必须选择哪种启动类型？</b><br>
-选择一项：<br>
-⚫️	自动<br>
-⚫️	引导<br>
-⚫️	手动<br>
-⚫️	开始<br>
-⚫️	启动<br>
-反馈<br>
-Refer to curriculum topic: 2.1.2<br>
-自动启动允许在 PC 启动时自动启动服务。用户启动应用时，进行的是手动启动过程。引导、开始或启动服务类型不可配置。<br>
-正确答案是：<b href="#" style="color:red;" >自动</b></p>
-<p><b>哪个命令可用于手动查询 DNS 服务器来解析特定主机名？</b><br>
-选择一项：<br>
-⚫️	nslookup<br>
-⚫️	ipconfig /displaydns<br>
-⚫️	tracert<br>
-⚫️	net<br>
-反馈<br>
-Refer to curriculum topic: 2.2.1<br>
-nslookup 命令允许用户手动查询 DNS 服务器来解析给定的主机名。ipconfig/displaydns 命令只是显示之前已解析的 DNS 条目。tracert 命令可以检查数据包通过网络时所用的路径，并能通过自动查询 DNS 服务器来解析主机名。net 命令用于管理网络计算机、服务器、打印机和网络驱动器。<br>
-正确答案是：<b href="#" style="color:red;" >nslookup</b></p>
-<p><b>哪个 Windows 版本首先引入 64 位 Windows 操作系统？</b><br>
-选择一项：<br>
-⚫️	Windows NT<br>
-⚫️	Windows XP<br>
-⚫️	Windows 7<br>
-⚫️	Windows 10<br>
-反馈<br>
-Refer to curriculum topic: 2.1.1<br>
-有 20 多个 Windows 操作系统版本。Windows XP 将 64 位处理功能引入了 Windows 计算。<br>
-正确答案是：<b href="#" style="color:red;" >Windows XP</b></p>
-<p><b>正确还是错误？</b><br>
-为便于管理，建议 Windows 中的 “Everyone” 组拥有完全控制权限。<br>
-选择一项：<br>
-⚫️	正确<br>
-⚫️	错误<br>
-反馈<br>
-Refer to curriculum topic: 2.1.1<br>
-正确答案是：<b href="#" style="color:red;" >错误</b></p>
 ]]></content>
     </entry>
 </feed>
