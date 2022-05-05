@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>思科练习——NAT网络地址转换 | 玄夜冥的网站</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://longwoif.github.io/favicon.ico?v=1651750867100">
+<link rel="stylesheet" href="https://longwoif.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="NAT：网络地址转换
+network address translation
+IPv4：32bit
+私有地址：10.172.192
+转换
+内部——外部
+静态NAT：内部网络中每个主机永久的映射为外部网络中合法的IP地址
+内部本地地址（内部局..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://longwoif.github.io">
+        <img src="https://longwoif.github.io/images/avatar.png?v=1651750867100" class="site-logo">
+        <h1 class="site-title">玄夜冥的网站</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      一个分享学习的网站
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://longwoif.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">思科练习——NAT网络地址转换</h2>
+            <div class="post-date">2022-05-05</div>
+            
+            <div class="post-content" v-pre>
+              <p>NAT：网络地址转换<br>
+network address translation<br>
+IPv4：32bit<br>
+私有地址：10.172.192<br>
+转换<br>
+内部——外部<br>
+静态NAT：内部网络中每个主机永久的映射为外部网络中合法的IP地址<br>
+内部本地地址（内部局部地址）与内部全局地址（内部合法地址）一对一的转换</p>
+<p>192.168.1.100——202.96.1.100<br>
+（内部局部——内部全局）</p>
+<p>内部局部（inside local）地址：在内部网络中使用的地址，通常是RFC1918（私有地址）<br>
+内部全局（inside glocal）地址：用来代替一个或多个本地IP地址的、对外的、注册过的合法的公有IP地址<br>
+外部局局（outside local）地址：一个外部主机相对于内部网络所用的IP地址，不一定是合法的公有IP地址<br>
+外部全局（outside glocal）地址：外部网络主机的合法的公有IP地址<br>
+一、静态NAT配置<br>
+1、配置内部路由器提供NAT服务<br>
+（1）、配置内部路由器提供NAT服务</p>
+<p>ip nat inside source static 内部局部地址（被映射的地址） 内部全局地址（要映射的地址）</p>
+<p>（2）映射关系的应用<br>
+配置NAT内部接口<br>
+（config-if）#ip nat inside<br>
+配置NAT外部接口<br>
+（config-if）#ip nat outside</p>
+<p>2、能让内部数据出去的路由</p>
+<p>3、验证/调试<br>
+show ip nat translation：查看NAT的转换关系/NAT表<br>
+web服务器、email、ftp服务器</p>
+<p>动态NAT<br>
+1、配置内部路由器提供NAT服务<br>
+（1）配置动态NAT转换的地址池<br>
+（config-if）#ip nat pool 地址池名称 开始地址 结束地址 netmask 子网掩码<br>
+（2）配置动态NAT映射关系<br>
+（config-if）#ip nat inside source list 访问列表序号 pool 地址池名称<br>
+access-list 1 permit 要映射的地址段 反掩码（192.168.1.0 0.0.0.255）//允许动态NAT转换的内部地址范围<br>
+（3）映射关系应用<br>
+（config-if）#ip nat inside<br>
+（config-if）#ip nat outside<br>
+2、要让内部全局的数据能出去（路由）</p>
+<p>清除动态NAT表<br>
+clear ip nat translation *</p>
+<p>端口NAT（PAT）<br>
+ip nat inside source list 访问列表序号 pool 地址池名称 overload//配置PAT<br>
+show ip nat statistics：查看NAT转换的统计信息<br>
+动态NAT的过期时间是86400秒，PAT的过期时间是60秒，通过命令“show ip nat translations verbose可以查看”<br>
+修改过期时间：<br>
+（config-if）#ip nat translation timeout 过期时间（0-2147483）<br>
+如果主机的数量不是很多的话，可以直接使用outside接口，地址配置PAT，不用定义地址池：ip nat inside source list 序号 interface s0/0 overload<br>
+映射的内部全局地址尽量不使用outside的地址（s口地址）</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://longwoif.github.io/post/pt-lu-you-qi-pei-zhi-kuo-zhan-aclfei-si-ke/">
+                  <h3 class="post-title">
+                    PT路由器配置扩展ACL（非思科）
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

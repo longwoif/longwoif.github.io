@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的网站</title>
-    <updated>2022-05-01T08:16:56.222Z</updated>
+    <updated>2022-05-05T11:41:12.500Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -10,6 +10,62 @@
     <logo>https://longwoif.github.io/images/avatar.png</logo>
     <icon>https://longwoif.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 玄夜冥的网站</rights>
+    <entry>
+        <title type="html"><![CDATA[思科练习——NAT网络地址转换]]></title>
+        <id>https://longwoif.github.io/post/si-ke-lian-xi-nat-wang-luo-di-zhi-zhuan-huan/</id>
+        <link href="https://longwoif.github.io/post/si-ke-lian-xi-nat-wang-luo-di-zhi-zhuan-huan/">
+        </link>
+        <updated>2022-05-05T11:30:37.000Z</updated>
+        <content type="html"><![CDATA[<p>NAT：网络地址转换<br>
+network address translation<br>
+IPv4：32bit<br>
+私有地址：10.172.192<br>
+转换<br>
+内部——外部<br>
+静态NAT：内部网络中每个主机永久的映射为外部网络中合法的IP地址<br>
+内部本地地址（内部局部地址）与内部全局地址（内部合法地址）一对一的转换</p>
+<p>192.168.1.100——202.96.1.100<br>
+（内部局部——内部全局）</p>
+<p>内部局部（inside local）地址：在内部网络中使用的地址，通常是RFC1918（私有地址）<br>
+内部全局（inside glocal）地址：用来代替一个或多个本地IP地址的、对外的、注册过的合法的公有IP地址<br>
+外部局局（outside local）地址：一个外部主机相对于内部网络所用的IP地址，不一定是合法的公有IP地址<br>
+外部全局（outside glocal）地址：外部网络主机的合法的公有IP地址<br>
+一、静态NAT配置<br>
+1、配置内部路由器提供NAT服务<br>
+（1）、配置内部路由器提供NAT服务</p>
+<p>ip nat inside source static 内部局部地址（被映射的地址） 内部全局地址（要映射的地址）</p>
+<p>（2）映射关系的应用<br>
+配置NAT内部接口<br>
+（config-if）#ip nat inside<br>
+配置NAT外部接口<br>
+（config-if）#ip nat outside</p>
+<p>2、能让内部数据出去的路由</p>
+<p>3、验证/调试<br>
+show ip nat translation：查看NAT的转换关系/NAT表<br>
+web服务器、email、ftp服务器</p>
+<p>动态NAT<br>
+1、配置内部路由器提供NAT服务<br>
+（1）配置动态NAT转换的地址池<br>
+（config-if）#ip nat pool 地址池名称 开始地址 结束地址 netmask 子网掩码<br>
+（2）配置动态NAT映射关系<br>
+（config-if）#ip nat inside source list 访问列表序号 pool 地址池名称<br>
+access-list 1 permit 要映射的地址段 反掩码（192.168.1.0 0.0.0.255）//允许动态NAT转换的内部地址范围<br>
+（3）映射关系应用<br>
+（config-if）#ip nat inside<br>
+（config-if）#ip nat outside<br>
+2、要让内部全局的数据能出去（路由）</p>
+<p>清除动态NAT表<br>
+clear ip nat translation *</p>
+<p>端口NAT（PAT）<br>
+ip nat inside source list 访问列表序号 pool 地址池名称 overload//配置PAT<br>
+show ip nat statistics：查看NAT转换的统计信息<br>
+动态NAT的过期时间是86400秒，PAT的过期时间是60秒，通过命令“show ip nat translations verbose可以查看”<br>
+修改过期时间：<br>
+（config-if）#ip nat translation timeout 过期时间（0-2147483）<br>
+如果主机的数量不是很多的话，可以直接使用outside接口，地址配置PAT，不用定义地址池：ip nat inside source list 序号 interface s0/0 overload<br>
+映射的内部全局地址尽量不使用outside的地址（s口地址）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PT路由器配置扩展ACL（非思科）]]></title>
         <id>https://longwoif.github.io/post/pt-lu-you-qi-pei-zhi-kuo-zhan-aclfei-si-ke/</id>
@@ -1105,140 +1161,6 @@ Refer to curriculum topic: 3.3.1<br>
 Refer to curriculum topic: 3.1.1<br>
 Linux 是一个开源操作系统，任何人均可访问源代码，并对其进行检查、修改并重新编译。Linux 发行版由程序员社区维护，其旨在连接网络并且不需要提供免费支持。<br>
 正确答案是：<b href="#" style="color:red;" >Linux 发行版源代码可以修改，然后重新编译。</b></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第2章考试]]></title>
-        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-2-zhang-kao-shi/</id>
-        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-2-zhang-kao-shi/">
-        </link>
-        <updated>2022-02-20T13:09:29.000Z</updated>
-        <content type="html"><![CDATA[<p><b>在 Windows 中使用 net accounts 命令的目的是什么？</b><br>
-⚫️	显示网络上的计算机和网络设备列表<br>
-<b href="#" style="color:red;" >⚫️	查看用户的密码和登录要求设置</b><br>
-⚫️	显示有关共享网络资源的信息<br>
-⚫️	启动网络服务</p>
-<p><b>下列哪种技术旨在替代现代个人计算机主板上的 BIOS 程序？</b><br>
-⚫️	CMOS<br>
-⚫️	MBR<br>
-⚫️	RAM<br>
-<b href="#" style="color:red;" >⚫️	UEFI</b></p>
-<p><b>在 Windows PC 上输入 ipconfig 命令的两个原因是什么？（选择两项。）</b><br>
-<b href="#" style="color:red;" >⚫️	查看网络介质连接的状态</b><br>
-⚫️	显示网络连接的带宽和吞吐量<br>
-⚫️	确保 PC 可以连接至远程网络<br>
-⚫️	检查是否可以联系 DNS 服务器<br>
-<b href="#" style="color:red;" >⚫️	查看 PC 上的网络配置</b></p>
-<p><b>在 Windows PC 上输入 netsh 命令的目的是什么？</b><br>
-⚫️	测试 PC 上的硬件设备<br>
-⚫️	更改 PC 计算机名称<br>
-<b href="#" style="color:red;" >⚫️	配置 PC 联网参数</b><br>
-⚫️	创建用户帐户</p>
-<p><b>在 Windows PC 上输入 ping 127.0.0.1 命令的两个原因是什么？（选择两项。）</b><br>
-<b href="#" style="color:red;" >⚫️	检查 TCP/IP 协议簇是否安装正确</b><br>
-<b href="#" style="color:red;" >⚫️	检查 NIC 是否按预期运行</b><br>
-⚫️	确保 PC 可以连接至远程网络<br>
-⚫️	显示网络连接的带宽和吞吐量<br>
-⚫️	检查默认网关是否配置正确</p>
-<p><b>Windows PC 上的哪些实用程序可用于查看当前正在运行的应用和进程？</b><br>
-⚫️	nslookup<br>
-⚫️	ipconfig<br>
-<b href="#" style="color:red;" >⚫️	任务管理器</b><br>
-⚫️	控制面板</p>
-<p><b>哪两个命令可用于检查 DNS 域名解析在 Windows PC 上是否正常工作？（请选择两项。）</b><br>
-⚫️	ipconfig/flushdns<br>
-<b href="#" style="color:red;" >⚫️	ping cisco.com</b><br>
-<b href="#" style="color:red;" >⚫️	nslookup cisco.com</b><br>
-⚫️	nbtstat cisco.com<br>
-⚫️	net cisco.com</p>
-<p><b>请考虑 Windows CLI C:\Users\Jason\Desktop\mydocu.txt 中的路径表示。Users\Jason 组件表示什么？</b><br>
-<b href="#" style="color:red;" >⚫️	文件目录和子目录</b><br>
-⚫️	存储设备或分区<br>
-⚫️	当前文件目录<br>
-⚫️	文件属性</p>
-<p><b>出于安全考虑，网络管理员需要确保本地计算机无法彼此 ping 通。可使用哪项设置完成此任务？</b><br>
-⚫️	智能卡设置<br>
-⚫️	MAC 地址设置<br>
-<b href="#" style="color:red;" >⚫️	防火墙设置</b><br>
-⚫️	文件系统设置</p>
-<p><b>哪种类型的 Windows PowerShell 命令执行操作并将输出或对象返回至将要执行的下一条命令？</b><br>
-⚫️	routines<br>
-⚫️	scripts<br>
-⚫️	functions<br>
-<b href="#" style="color:red;" >⚫️	cmdlet</b></p>
-<p><b>下列哪两项可以使用 ping 命令来确定？ （选择两项。）</b><br>
-⚫️	源设备与目的设备之间的路由器数量<br>
-⚫️	源设备与目的设备之间的路径中每台路由器响应的平均时间<br>
-<b href="#" style="color:red;" >⚫️	是否可以通过网络到达目的设备</b><br>
-⚫️	距目的设备最近的路由器的 IP 地址<br>
-<b href="#" style="color:red;" >⚫️	数据包到达目的设备以及响应返回源设备的平均时间</b></p>
-<p><b>技术人员正在对无法连接到网络的 PC 进行故障排除。应该发出以下哪项命令来检查设备的 IP 地址？</b><br>
-<b href="#" style="color:red;" >⚫️	ipconfig</b><br>
-⚫️	ping<br>
-⚫️	tracert<br>
-⚫️	nslookup</p>
-<p><b>安装过程中所选择的设置存储在什么地方？</b><br>
-<b href="#" style="color:red;" >⚫️	在注册表中</b><br>
-⚫️	在 BIOS 中<br>
-⚫️	在闪存中<br>
-⚫️	在恢复分区</p>
-<p><b>请参见图示。正在使用下列哪一 Microsoft Windows 应用？</b><br>
-<img src="https://longwoif.github.io/post-images/1650719610715.png" alt="" loading="lazy"><br>
-⚫️	任务管理器<br>
-<b href="#" style="color:red;" >⚫️	性能监控器</b><br>
-⚫️	事件查看器<br>
-⚫️	PowerShell</p>
-<p><b>请参见图示。网络安全管理员正尝试从 Windows PowerShell 查看系统信息，并接收显示的错误消息。要成功运行命令，管理员需采取下列哪项措施？ </b><br>
-<img src="https://longwoif.github.io/post-images/1650719676437.png" alt="" loading="lazy"><br>
-⚫️	从命令提示符运行命令。<br>
-<b href="#" style="color:red;" >⚫️	以管理员身份运行 PowerShell。</b><br>
-⚫️	安装最新 Windows 更新。<br>
-⚫️	在任务管理器中重新启动 abno 服务。</p>
-<p><b>用户使用常规用户帐户登录 Windows，并尝试使用需管理权限的应用。用户可以做些什么来成功地使用应用？</b><br>
-⚫️	右键点击应用，然后选择 以 root 身份运行 。<br>
-⚫️	右键点击应用，然后选择 以特权身份运行 。<br>
-⚫️	右键点击应用，然后选择 以超级用户身份运行 。<br>
-<b href="#" style="color:red;" >⚫️	右键点击应用，然后选择 以管理员身份运行 。</b></p>
-<p><b>NTFS 文件系统较之 FAT32 有哪两项优点？（选择两项。）</b><br>
-⚫️	NTFS 更易于配置。<br>
-⚫️	NTFS 能够更快地格式化驱动器。<br>
-⚫️	NTFS 支持自动检测坏扇区。<br>
-<b href="#" style="color:red;" >⚫️	NTFS 支持的文件更大。</b><br>
-<b href="#" style="color:red;" >⚫️	NTFS 提供的安全功能更多。</b><br>
-⚫️	NTFS 能够更快地访问 USB 驱动器之类的外围设备。</p>
-<p><b>下列哪个术语用于描述可以进行格式化，以存储数据的逻辑驱动器？</b><br>
-⚫️	簇<br>
-⚫️	扇区<br>
-<b href="#" style="color:red;" >⚫️	分区</b><br>
-⚫️	卷<br>
-⚫️	磁道</p>
-<p><b>如果在 Windows PC 上输入 netstat -abno 命令，会显示什么内容？</b><br>
-⚫️	仅限处于“侦听”状态的活动 UDP 连接<br>
-<b href="#" style="color:red;" >⚫️	所有活动的 TCP 和 UDP 连接、其当前状态及其相关联进程 ID (PID)</b><br>
-⚫️	仅限处于“已建立”状态的活动 TCP 连接<br>
-⚫️	本地路由表</p>
-<p><b>请参见图示。网络安全分析师正在调查 Microsoft Windows 计算机上报告的安全事件。分析师使用下列哪项工具？</b><br>
-<img src="https://longwoif.github.io/post-images/1650719725162.png" alt="" loading="lazy"><br>
-<b href="#" style="color:red;" >⚫️	事件查看器</b><br>
-⚫️	性能监控器<br>
-⚫️	PowerShell<br>
-⚫️	任务管理器</p>
-<p><b>技术人员可以对某远程公司 Web 服务器的 IP 地址执行 ping 操作，但无法对同一 Web 服务器的 URL 地址成功执行 ping 操作。 技术人员可以使用哪种软件实用程序来诊断此问题？</b><br>
-<b href="#" style="color:red;" >⚫️	nslookup</b><br>
-⚫️	netstat<br>
-⚫️	ipconfig<br>
-⚫️	tracert</p>
-<p><b>用户将 Windows 安装到新计算机时，会自动创建哪两个用户帐户？（选择两项。）</b><br>
-<b href="#" style="color:red;" >⚫️	管理员</b><br>
-⚫️	系统<br>
-⚫️	root<br>
-<b href="#" style="color:red;" >⚫️	访客</b><br>
-⚫️	超级用户</p>
-<p><b>Windows 任务管理器提供下列哪项功能？</b><br>
-⚫️	有选择地拒绝指定接口上的流量。<br>
-<b href="#" style="color:red;" >⚫️	提供有关系统资源和进程的信息。</b><br>
-⚫️	维护系统日志。<br>
-⚫️	提供活动的 TCP 连接列表。</p>
 ]]></content>
     </entry>
 </feed>
