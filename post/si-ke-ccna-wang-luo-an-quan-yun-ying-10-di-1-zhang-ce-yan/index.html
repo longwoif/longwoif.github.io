@@ -1,119 +1,112 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
-<title>思科CCNA网络安全运营1.0第1章测验 | 玄夜冥的网站</title>
+<title>思科CCNA网络安全运营1.0——第1章测验 | 玄夜冥的小窝</title>
+<meta name="description" content="一个分享学习的博客">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://longwoif.github.io/favicon.ico?v=1650715158417">
+<link rel="shortcut icon" href="https://longwoif.github.io/favicon.ico?v=1653454497804">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://longwoif.github.io/styles/main.css">
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="什么是非法无线热点？
-选择一项：
-⚫️它是使用过时设备设置的热点。
-⚫️它是不加密网络用户流量的热点。
-⚫️它是不实施强用户身份验证机制的热点。
-⚫️它是看似来源于合法业
-务的热点，但实际上由某人在未经企业许可的情况下设置。
-反馈
-Refe..." />
-    <meta name="keywords" content="思科CCNA网络安全1.0学习之旅" />
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://longwoif.github.io">
-        <img src="https://longwoif.github.io/images/avatar.png?v=1650715158417" class="site-logo">
-        <h1 class="site-title">玄夜冥的网站</h1>
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://longwoif.github.io">
+        <img class="avatar" src="https://longwoif.github.io/images/avatar.png?v=1653454497804" alt="" width="32px" height="32px">
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+      <a href="https://longwoif.github.io">
+        <h1 class="site-title">玄夜冥的小窝</h1>
+      </a>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      一个分享学习的网站
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://longwoif.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">思科CCNA网络安全运营1.0第1章测验</h2>
-            <div class="post-date">2022-04-23</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">思科CCNA网络安全运营1.0——第1章测验</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-02-13</span>
             
-            <div class="post-content" v-pre>
-              <p>什么是非法无线热点？<br>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://longwoif.github.io/tag/CCVRw3Kqz/">
+                    思科CCNA网络安全1.0学习之旅——测验整理
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p><b>什么是非法无线热点？</b><br>
 选择一项：<br>
 ⚫️它是使用过时设备设置的热点。<br>
 ⚫️它是不加密网络用户流量的热点。<br>
 ⚫️它是不实施强用户身份验证机制的热点。<br>
-⚫️它是看似来源于合法业<br>
-务的热点，但实际上由某人在未经企业许可的情况下设置。<br>
+⚫️它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。<br>
 反馈<br>
 Refer to curriculum topic: 1.1.1<br>
 非法无线热点是指在未经企业或组织正式许可的情况下在企业或组织中运行的无线接入点。<br>
-正确答案是：它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。</p>
-<p>如何使用 SOC 中的安全信息和事件管理系统帮助相关人员抵御安全威胁？<br>
+正确答案是：<b href="#" style="color:red;" >它是看似来源于合法业务的热点，但实际上由某人在未经企业许可的情况下设置。</b></p>
+<p><b>如何使用 SOC 中的安全信息和事件管理系统帮助相关人员抵御安全威胁？</b><br>
 选择一项：<br>
 ⚫️通过过滤网络流量<br>
 ⚫️通过收集和过滤数据<br>
@@ -122,8 +115,8 @@ Refer to curriculum topic: 1.1.1<br>
 反馈<br>
 Refer to curriculum topic: 1.2.1<br>
 安全信息和事件管理系统 (SIEM) 结合多个来源的数据，帮助 SOC 人员收集和过滤数据，检测威胁并对其进行分类，分析和调查威胁，管理资源以实施预防措施。<br>
-正确答案是：通过收集和过滤数据</p>
-<p>术语“网络运营分析师”指的是 SOC 中的哪一群人员？<br>
+正确答案是：<b href="#" style="color:red;" >通过收集和过滤数据</b></p>
+<p><b>术语“网络运营分析师”指的是 SOC 中的哪一群人员？</b><br>
 选择一项：<br>
 ⚫️SOC 经理<br>
 ⚫️一级人员<br>
@@ -132,8 +125,8 @@ Refer to curriculum topic: 1.2.1<br>
 反馈<br>
 Refer to curriculum topic: 1.2.1<br>
 在典型的 SOC 中，一级人员被称为警报分析师，也称为网络运营分析师。<br>
-正确答案是：一级人员</p>
-<p>计算机在允许同一用户访问用户数据之前，向用户显示要求付款的屏幕。该恶意软件属于哪一类型？<br>
+正确答案是：<b href="#" style="color:red;" >一级人员</b></p>
+<p><b>计算机在允许同一用户访问用户数据之前，向用户显示要求付款的屏幕。该恶意软件属于哪一类型？</b><br>
 选择一项：<br>
 ⚫️一种病毒<br>
 ⚫️一种逻辑炸弹<br>
@@ -142,8 +135,8 @@ Refer to curriculum topic: 1.2.1<br>
 反馈<br>
 Refer to curriculum topic: 1.1.1<br>
 勒索软件通常加密计算机上的数据，并使数据不可用，直到计算机用户支付特定金额的赎金。<br>
-正确答案是：一种勒索软件</p>
-<p>出于政治或社会原因进行黑客攻击的黑客称为什么？<br>
+正确答案是：<b href="#" style="color:red;" >一种勒索软件</b></p>
+<p><b>出于政治或社会原因进行黑客攻击的黑客称为什么？</b><br>
 选择一项：<br>
 ⚫️白帽黑客<br>
 ⚫️黑客<br>
@@ -152,8 +145,8 @@ Refer to curriculum topic: 1.1.1<br>
 反馈<br>
 Refer to curriculum topic: 1.1.2<br>
 该术语用于描述因某种正义原因聚集并提供保护的灰帽黑客。<br>
-正确答案是：激进黑客</p>
-<p>在 SOC 安全信息和事件管理系统中应包含哪三项技术？（选择三项。）<br>
+正确答案是：<b href="#" style="color:red;" >激进黑客</b></p>
+<p><b>在 SOC 安全信息和事件管理系统中应包含哪三项技术？（选择三项。）</b><br>
 选择一项或多项：<br>
 ⚫️代理服务<br>
 ⚫️威胁情报<br>
@@ -172,8 +165,8 @@ SOC 中的技术应包括以下内容：<br>
 漏洞跟踪<br>
 威胁情报<br>
 代理服务器、用户身份验证和 IPS 是在网络基础设施中部署并由 NOC 管理的安全设备和机制。<br>
-正确答案是：威胁情报, 安全监控, 事件收集、关联和分析</p>
-<p>什么是网络战？<br>
+正确答案是：<b href="#" style="color:red;" >威胁情报, 安全监控, 事件收集、关联和分析</b></p>
+<p><b>什么是网络战？</b><br>
 选择一项：<br>
 ⚫️网络战仅攻击军事目标。<br>
 ⚫️网络战旨在破坏或损坏国家利益。<br>
@@ -184,8 +177,8 @@ Refer to curriculum topic: 1.1.3<br>
 参考课程主题：5.1<br>
 本题目基于演讲中的内容信息。<br>
 网络战是信息战（IW）的子集。 它的目标是破坏(可用性)、损坏(完整性)或利用(保密或隐私)。 它可以直接针对军事力量,关键的基础设施,或其他国家利益,如经济目标。 它涉及协同工作的许多团队。 僵尸网络可能是用于发起攻击的工具之一。<br>
-正确答案是：网络战旨在破坏或损坏国家利益</p>
-<p>哪个组织是提供 CISSP 认证的国际非营利性组织？<br>
+正确答案是：<b href="#" style="color:red;" >网络战旨在破坏或损坏国家利益</b></p>
+<p><b>哪个组织是提供 CISSP 认证的国际非营利性组织？</b><br>
 选择一项：<br>
 ⚫️IEEE<br>
 ⚫️GIAC<br>
@@ -194,15 +187,15 @@ Refer to curriculum topic: 1.1.3<br>
 反馈<br>
 Refer to curriculum topic: 1.2.2<br>
 (ISC)² 是一个提供 CISSP 认证的国际非营利性组织。<br>
-正确答案是：(ISC)2</p>
-<p>将职称与 SOC 人员职责进行匹配。（并非所有选项都会用到。）<br>
-⚫️三级主题专家	<br>
-⚫️二级事件响应人员	<br>
-⚫️一级警报分析师	<br>
+正确答案是：<b href="#" style="color:red;" >(ISC)2</b></p>
+<p><b>将职称与 SOC 人员职责进行匹配。（并非所有选项都会用到。）</b><br>
+⚫️三级主题专家<br>
+⚫️二级事件响应人员<br>
+⚫️一级警报分析师<br>
 反馈<br>
 Refer to curriculum topic: 1.2.1<br>
-正确答案是：三级主题专家 → 参与潜在危险的搜索并实施威胁检测工具, 二级事件响应人员 → 参与事件的深入调查, 一级警报分析师 → 监控收到的警报并验证是否确实发生了事件</p>
-<p>在 SOC 中验证安全事件之后，事件响应人员将检查事件，但无法识别事件的来源并形成有效的缓解程序。事件故障单应向谁上报？<br>
+正确答案是：<b href="#" style="color:red;" >三级主题专家 → 参与潜在危险的搜索并实施威胁检测工具, 二级事件响应人员 → 参与事件的深入调查, 一级警报分析师 → 监控收到的警报并验证是否确实发生了事件</b></p>
+<p><b>在 SOC 中验证安全事件之后，事件响应人员将检查事件，但无法识别事件的来源并形成有效的缓解程序。事件故障单应向谁上报？</b><br>
 选择一项：<br>
 ⚫️SME，以便进行进一步调查<br>
 ⚫️网络运营分析师，以寻求帮助<br>
@@ -211,41 +204,39 @@ Refer to curriculum topic: 1.2.1<br>
 反馈<br>
 Refer to curriculum topic: 1.2.1<br>
 事件响应人员是 SOC 中的二级安全专业人员。如果响应人员无法解决事件故障单，则应将事件故障单上报给下一级支持人员，即三级人员。3 级 SME 将进一步调查事件。<br>
-正确答案是：SME，以便进行进一步调查</p>
-
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://longwoif.github.io/tag/CCVRw3Kqz/" class="tag">
-                    思科CCNA网络安全1.0学习之旅
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://longwoif.github.io/post/hello-gridea/">
-                  <h3 class="post-title">
-                    Hello Gridea
-                  </h3>
-                </a>
-              </div>
-            
-
-            
+正确答案是：<b href="#" style="color:red;" >SME，以便进行进一步调查</b></p>
 
           </div>
-
         </div>
+
+        
       </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">一个分享学习的博客</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://longwoif.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
+    <script type="application/javascript">
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
+hljs.initHighlightingOnLoad()
 
 var app = new Vue({
   el: '#app',
@@ -255,8 +246,6 @@ var app = new Vue({
 })
 
 </script>
-
-
 
 
 

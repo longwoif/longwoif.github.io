@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>玄夜冥的小窝</title>
+<title>PT路由器配置扩展ACL（非思科） | 玄夜冥的小窝</title>
 <meta name="description" content="一个分享学习的博客">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -75,21 +77,38 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          <div class="tags-container">
-            
-              <a class="tag" href="https://longwoif.github.io/tag/Bmc0fHD80/">思科CCNA网络安全1.0学习之旅——考试整理</a>
-            
-              <a class="tag" href="https://longwoif.github.io/tag/L5P4Q7MyD/">思科PT练习</a>
-            
-              <a class="tag" href="https://longwoif.github.io/tag/CCVRw3Kqz/">思科CCNA网络安全1.0学习之旅——测验整理</a>
+          <h2 class="post-title">PT路由器配置扩展ACL（非思科）</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-05-01</span>
             
           </div>
+          <div class="post-content">
+            <p><img src="https://longwoif.github.io/post-images/1651392771310.png" alt="" loading="lazy"><br>
+在路由器R1配置模式下输入命令<br>
+access-list 102 permit tcp host 192.168.40.100 host 192.168.30.100 eq ftp<br>
+access-list 102 deny tcp host 192.168.40.101 host 192.168.50.100 eq www<br>
+access-list 102 permit ip any any</p>
 
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://longwoif.github.io/post/huo-jiang-qing-kuang/">
+              <h3 class="post-title">
+                下一篇：获奖情况——样板更新于2022.5.25
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
   <div class="slogan">一个分享学习的博客</div>
   <div class="social-container">
     
@@ -108,8 +127,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -125,6 +144,5 @@ var app = new Vue({
 
 
 
-    </div>
   </body>
 </html>

@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>uos练习题 | 玄夜冥的小窝</title>
+<meta name="description" content="一个分享学习的博客">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://longwoif.github.io/favicon.ico?v=1653454497804">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://longwoif.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://longwoif.github.io">
+        <img class="avatar" src="https://longwoif.github.io/images/avatar.png?v=1653454497804" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://longwoif.github.io">
+        <h1 class="site-title">玄夜冥的小窝</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">uos练习题</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-05-20</span>
+            
+          </div>
+          <div class="post-content">
+            <p>注意：<br>
+1.在虚拟机中额外添加一块24G的磁盘<br>
+2.在做题前，建议先给虚拟机创建初始快照，以供重复练习。</p>
+<p>模拟题：</p>
+<ol>
+<li>系统密码遗忘破解【13.2破解root密码】</li>
+</ol>
+<ul>
+<li>自1030版本起, 已无法使用在grub界面修改启动项参数, 来免密进入单用户的方式破解root密码</li>
+<li>请在桌面上新建pwd.txt并编辑，简要描述使用光盘或启动U盘, 来破解root密码的过程<br>
+(注：列出具体的命令)<br>
+vim pwd.txt</li>
+</ul>
+<p>UOS 1030版以前 使用单用户模式修改；<br>
+开机按&quot;e&quot;键，进入grub引导菜单<br>
+找到linux vmlinuz-* 开头的行在末尾添加rw init=/bin/bash<br>
+按ctrl+x或F10继续启动<br>
+passwd root<br>
+reboot -f   或手动重启</p>
+<p>UOS 1031以后的版本， 进入PE模式教程修改用户密码。<br>
+参考链接：https://blog.csdn.net/zds00virtue/article/details/119106630<br>
+1.1031系统更改密码，需要物理介质引导进入PE界面（光盘或U盘）<br>
+2.开机后进入bios选择物理介质启动<br>
+3.到grub界面按Tab,删除livecd-installer<br>
+4.进入PE创建目录/mnt/systmp,然后将/root挂载到/mnt/systmp<br>
+5.chroot /mnt/systmp<br>
+6.passwd   修改密码<br>
+7.rm -rf  /.local/share/keyrings/<br>
+8.reboot -f   或手动重启<br>
+9.拔出物理介质，正常启动系统输入密码</p>
+<ol start="2">
+<li>
+<p>修改主机名称<br>
+•	修改主机名称为uos-exam-1-1<br>
+知识点：<br>
+临时：<br>
+root@uos:~# hostname  uos-exam-1-1<br>
+root@uos:~# hostname<br>
+uos-exam-1-1<br>
+root@uos:~# hostnamectl<br>
+Static hostname: uos<br>
+Transient hostname: uos-exam-1-1<br>
+永久的：<br>
+root@uos:~# hostnamectl set-hostname uos-exam-1-1<br>
+root@uos:~# hostnamectl<br>
+Static hostname: uos-exam-1-1</p>
+</li>
+<li>
+<p>查询网络设定</p>
+</li>
+</ol>
+<ul>
+<li>查询本机主网卡的如下设定信息，并按以下冒号分隔的格式填写，<br>
+保存到当前用户“桌面”上名为net.txt的文件中</li>
+</ul>
+<pre><code>ip: 
+mac: 
+netmask: 
+gateway: 
+首选DNS:
+备选DNS:
+</code></pre>
+<p>知识点：<br>
+ip:  【ifconfig】<br>
+mac: 【ifconfig】<br>
+netmask: 【ifconfig】<br>
+gateway: 【route -n】<br>
+首选DNS:  【cat  /etc/resolve   第一个nameserver的IP】<br>
+备选DNS:【cat  /etc/resolve  第一个nameserver的IP】</p>
+<ol start="4">
+<li>软件源修改</li>
+</ol>
+<ul>
+<li>备份默认的软件源配置文件到同级目录，名称为：1.list.bak</li>
+<li>配置新的源为：deb http://mirrors.163.com/deepin/ apricot main contrib non-free</li>
+</ul>
+<p>cp  备份<br>
+/etc/apt/sources.list  软件源配置文件<br>
+root@uos:~# cp /etc/apt/sources.list  /etc/apt/1.list.bak</p>
+<p>root@uos:~# vim /etc/apt/sources.list<br>
+deb http://mirrors.163.com/deepin/ apricot main contrib non-free<br>
+root@uos:~# apt update   //更新</p>
+<ol start="5">
+<li>
+<p>使用管理器安装软件<br>
+•	使用apt安装“unbound”<br>
+root@uos:~# apt -y install unbound</p>
+</li>
+<li>
+<p>设置NTP时间同步</p>
+</li>
+</ol>
+<ul>
+<li>安装 ntpdate</li>
+<li>使用 ntpdate 同步cn.pool.ntp.org 时间服务器</li>
+<li>把输出的结果保存在/opt/date.txt<br>
+root@uos:~# apt -y install ntpdate<br>
+root@uos:~# dpkg -L ntpdate<br>
+root@uos:~# vim /etc/default/ntpdate</li>
+</ul>
+<h1 id="ntpservers0debianpoolntporg-1debianpoolntporg-2debianpoolntporg-3debianpoolntporg">NTPSERVERS=&quot;0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.ntp.org 3.debian.pool.ntp.org&quot;</h1>
+<p>NTPSERVERS=&quot;cn.pool.ntp.org&quot;<br>
+root@uos:~# ntpdate  cn.pool.ntp.org</p>
+<p>【12.6 cron计划任务】<br>
+root@uos-exam-1-1:~# which  ntpdate<br>
+/usr/sbin/ntpdate<br>
+root@uos:~#  crontab -e -u root<br>
+no crontab for root - using an empty one</p>
+<p>Select an editor.  To change later, run 'select-editor'.</p>
+<ol>
+<li>/bin/nano        &lt;---- easiest</li>
+<li>/usr/bin/vim.basic</li>
+<li>/usr/bin/vim.tiny</li>
+</ol>
+<p>Choose 1-3 [1]: 2<br>
+crontab: installing new crontab<br>
+root@uos:~#  crontab -l -u root</p>
+<ol start="7">
+<li>用户管理【第四章 用户和组管理】</li>
+</ol>
+<ul>
+<li>建立uos-exam组，添加用户 uoskeeper1 和 uosmaster1 到 uos-exam 组</li>
+<li>指定各自的家目录为 /home/uoskeeper1 和 /home/uosmaster1</li>
+<li>添加 uosnologin 用户并设置不能交互式登陆</li>
+<li>修改 uosnologin 的 UID为：2020<br>
+-G  -g   -d   -s  -u</li>
+</ul>
+<p>root@uos:~# groupadd  uos-exam<br>
+root@uos:~# useradd -G uos-exam -d     /home/uoskeeper1   uoskeeper1<br>
+root@uos:~# useradd -G uos-exam -d     /home/uosmaster1  uosmaster1<br>
+root@uos:~# useradd -s  /usr/sbin/nologin  -u 2020  uosnologin<br>
+8. 文件的操作</p>
+<ul>
+<li>复制 /etc/apt/1.list.bak 到 /opt 下</li>
+<li>修改这个文件的权限：</li>
+<li>此文件的属主属组为root</li>
+<li>uoskeeper1只有读权限   【5.4 文件访问控制列表与链接】</li>
+<li>uosmaster1只有执行权限</li>
+</ul>
+<p>root@uos:~# cp /etc/apt/1.list.bak  /opt<br>
+root@uos:~# ls -l /opt/1.list.bak<br>
+-rw-r--r-- 1 root root 180 5月  16 15:00 /opt/1.list.bak<br>
+root@uos:~#<br>
+root@uos:~#<br>
+root@uos:~# chown root:root  /opt/1.list.bak</p>
+<p>root@uos:~# setfacl -m u:uoskeeper1:r  /opt/1.list.bak<br>
+root@uos:~# setfacl -m u:uosmaster1:x  /opt/1.list.bak<br>
+root@uos:~#<br>
+root@uos:~# getfacl /opt/1.list.bak<br>
+getfacl: Removing leading '/' from absolute path names</p>
+<h1 id="file-opt1listbak">file: opt/1.list.bak</h1>
+<h1 id="owner-root">owner: root</h1>
+<h1 id="group-root">group: root</h1>
+<p>user::rw-<br>
+user:uoskeeper1:r--<br>
+user:uosmaster1:--x<br>
+group::r--<br>
+mask::r-x<br>
+other::r--</p>
+<ol start="9">
+<li>设置计划任务【12.6 cron计划任务】</li>
+</ol>
+<ul>
+<li>对uosmaster1 设置计划任务，每天23点59分，执行/bin/echo “UOS is the best system”</li>
+</ul>
+<p>root@uos:~# crontab -e  -u  uosmaster1<br>
+59  23 *  *  *  /bin/echo &quot;UOS is the best system&quot;<br>
+【:wq】<br>
+no crontab for uosmaster1 - using an empty one<br>
+crontab: installing new crontab<br>
+root@uos:~# crontab -l  -u  uosmaster1</p>
+<p>10.文件的查找 	【8.1.3 find 在指定目录下查找文件】</p>
+<ul>
+<li>查找名为 “passwd”的文件，</li>
+<li>并把此文件的绝对路径写入/opt/pwdin.txt中<br>
+root@uos:~# find /  -name passwd &gt;  exam-uos-file.conf<br>
+find: ‘/run/user/1000/gvfs’: 权限不够<br>
+root@uos:~# cat exam-uos-file.conf<br>
+/etc/pam.d/passwd<br>
+/etc/cron.daily/passwd<br>
+/etc/passwd<br>
+/data/root/etc/passwd<br>
+/root/etc/passwd<br>
+/usr/bin/passwd<br>
+/usr/share/bash-completion/completions/passwd<br>
+/usr/share/doc/passwd<br>
+/usr/share/lintian/overrides/passwd</li>
+</ul>
+<p>11.文件的保护 【5.3文件/文件夹的隐藏权限】</p>
+<ul>
+<li>进入 /opt/ 目录，创建 uniontech.txt 文件,内容为：'UOS is the best system'</li>
+<li>要求该文件 /opt/uniontech.txt ，不能被删除，不能被修改<br>
+root@uos:~# echo 'UOS is the best system'  &gt;&gt; /opt/uniontech.txt<br>
+root@uos:~# cat /opt/uniontech.txt<br>
+UOS is the best system</li>
+</ul>
+<p>root@uos:~# chattr  +ia  /opt/uniontech.txt<br>
+root@uos:~# lsattr<br>
+root@uos:~# lsattr  /opt/uniontech.txt<br>
+----ia--------e---- /opt/uniontech.txt</p>
+<p>12.字符串的查找</p>
+<ul>
+<li>查找 /opt目录下所有文件中包含“happyexam”的字符串，</li>
+<li>并把查找出来的行号写入/opt/findcode.txt（注意：只写行号）</li>
+</ul>
+<p>root@uos:~# grep -rn  &quot;happyexam&quot;   /opt/  &gt;  /opt/findcode.txt<br>
+grep: 输入文件 ‘/opt/findcode.txt’ 同时也作输出<br>
+root@uos:~# cat /opt/findcode.txt<br>
+/opt/b.txt:1:happyexam<br>
+root@uos:~#vim  /opt/findcode.txt  //修改内容，只留行号<br>
+1</p>
+<p>【13-18题；风险较大，需小心，不小心把磁盘搞挂了】<br>
+13.磁盘分区</p>
+<ul>
+<li>对24G的磁盘/dev/sdb，分4个大小为5G的分区和1个大小为4G的分区</li>
+</ul>
+<p>5个可以存数据的分区</p>
+<h1 id="fdisk-devsdb">fdisk  /dev/sdb</h1>
+<p>n  回车  回车  回车  +5G   //主分区<br>
+n  回车  回车  回车  +5G  //主分区<br>
+n  回车  回车  回车  +5G  //主分区</p>
+<p>n  回车  回车  回车  回车     //剩余所有的空间都给扩展分区 Extended<br>
+n  回车  5G    //逻辑分区<br>
+n  回车  回车  回车      //逻辑分区<br>
+w    //保存并退出</p>
+<h1 id="lsblk-查看分区">lsblk 查看分区</h1>
+<h1 id="partprobe-刷新分区">partprobe   刷新分区</h1>
+<p>知识点：<br>
+在计算机上使用磁盘空间的过程：<br>
+识别硬盘 =&gt; 分区规划 =&gt; 格式化 =&gt; 挂载使用<br>
+毛坯房       打隔断      装修       入驻<br>
+MBR/msdos   EXT4|XFS<br>
+识别磁盘 --&gt; 分区 --&gt; 格式化 --&gt; 挂载  --&gt; 访问挂载点<br>
+fdisk -l/lsblk  --&gt;  fdisk/parted --&gt; mkfs相关 --&gt; mount --&gt; ls、vim<br>
+考试时只有一块/dev/vda</p>
+<p>分区模式msdos：四个主分区、扩展分区、逻辑分区<br>
+最大支持容量为 2.2TB 的磁盘<br>
+分区模式gpt（支持&gt;2T空间）：主分区（操作系统支持一般&lt;128个）<br>
+最大支持容量为18EB<br>
+1EB=1024PB<br>
+1PB=1024TB<br>
+1TB=1024GB<br>
+1GB=1024MB</p>
+<p>磁盘分区操作 ——<br>
+fdisk  -l   //查看分区表<br>
+fdisk  /dev/vdb</p>
+<p>刷新硬盘分区表：<br>
+partprobe  /dev/vdb 或者 partx  -a  /dev/vdb</p>
+<p>查看系统所有的磁盘设备	<br>
+[root@uos ~]# lsblk<br>
+NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT<br>
+sda    253:0    0  10G  0 disk<br>
+└─sda1 253:1    0  10G  0 part /<br>
+sdb    253:16   0  10G  0 disk</p>
+<p>格式化操作：<br>
+mkfs 工具集 （make file system）<br>
+mkfs.ext3   分区设备<br>
+mkfs.ext4   分区设备<br>
+mkfs.xfs   分区设备<br>
+mkfs.vfat  -F  32  分区设备</p>
+<p>总结：<br>
+1、查看磁盘  lsblk<br>
+2、划分分区  fdisk<br>
+3、刷新   partprobe<br>
+4、格式化  mkfs.ext4  mkfs.xfs<br>
+5、查看文件系统  blkid<br>
+6、挂载使用  mount</p>
+<p>14.RAID的创建【15.6 raid】</p>
+<ul>
+<li>对上一题划分的4块大小为5G的分区进行RAID5创建，预留最大空间(大于14G)，路径名称为“/dev/md5”</li>
+<li>创建完后将raid5信息写入/etc/mdadm.conf文件中</li>
+<li>执行 update-initramfs -u，否则重启后raid5名称会发生变化<br>
+安装mdadm<br>
+root@uos:~# apt install -y mdadm</li>
+</ul>
+<p>root@uos:~# mdadm  -C  /dev/md5  -a  yes  -l  5   -n  4  /dev/sdb1 /dev/sdb2 /dev/sdb3 /dev/sdb5<br>
+mdadm: Defaulting to version 1.2 metadata<br>
+mdadm: array /dev/md5 started.</p>
+<p>root@uos:~# mdadm  -D /dev/md5  &gt;&gt;  /etc/mdadm.conf</p>
+<p>+++++++++如raid创建错误，删除linux软raid方法++++++++++++++<br>
+1.先umount组建好的raid:umount /dev/md5<br>
+2.停止raid设备：mdadm -S /dev/md5<br>
+3.此时如果忘了raid中的硬盘名称，要么重启系统，要么运行:mdadm -A -s /dev/md5 然后再用mdadm -D /dev/md5查看raid中包含哪几个硬盘。再次运行第二步停止命令:mdadm -S /dev/md5<br>
+4.删除raid里的所有硬盘：mdadm --misc --zero-superblock /dev/sdc,<br>
+mdadm --misc --zero-superblock /dev/sdd<br>
+mdadm --misc --zero-superblock /dev/sde<br>
+mdadm --misc --zero-superblock /dev/sdf</p>
+<p>有几块硬盘，就按格式删几次，注意最后面的硬盘名称。<br>
+5.删除配置文件：rm -f /etc/mdadm.conf<br>
+6.如果之前将raid相关信息写入了/etc/fstab配置文件中，还需vim /etc/fstab，将raid相关的内容删除即可。</p>
+<p>15.对新加磁盘阵列“md5”进行逻辑卷制作</p>
+<ul>
+<li>新建物理卷，使用“md5”</li>
+<li>新建卷组，名称为“uosvg”</li>
+<li>新建逻辑卷，使用所有卷组容量(大于1.4G)，名称“uoslv”<br>
+root@uos:~# pvcreate  /dev/md5<br>
+Physical volume &quot;/dev/md5&quot; successfully created.<br>
+root@uos:~# vgcreate  uosvg   /dev/md5<br>
+Volume group &quot;uosvg&quot; successfully created<br>
+root@uos:~# lvcreate  -l +100%free uosvg   -n  uoslv<br>
+Logical volume &quot;uoslv&quot; created.<br>
+root@uos:~# lvs<br>
+LV    VG    Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert<br>
+uoslv uosvg -wi-a----- 14.98g</li>
+</ul>
+<p>知识点： raid 硬盘化零为整， lvm 分区化零为整<br>
+LVM逻辑卷管理机制<br>
+—— 化零为整、动态伸缩</p>
+<p>新建逻辑卷：将众多的物理卷（pv）组成卷组（vg），再从卷组中划分逻辑卷（lv）<br>
+物理卷                       卷组                     逻辑卷<br>
+Physical Volume      Volume Group            Logical Volume</p>
+<p>游击队 ===》 八路军 ===》按需增编/简编人员</p>
+<p>把零散的分区（PV物理设备） ===》整编的大卷组（VG虚拟磁盘） ===》 根据需要获取空间（虚拟分区LV）</p>
+<p>识别磁盘 --&gt; 分区 --&gt; 物理卷--》卷组 --&gt; 逻辑卷 --&gt; 格式化 --&gt; 挂载  --&gt; 访问挂载点</p>
+<p>LVM管理工具 ——<br>
+物理卷操作：pvscan、pvdisplay、pvcreate<br>
+卷组操作：vgscan、vgdisplay、vgcreate、vgremove、<br>
+vgextend、vgchange<br>
+逻辑卷操作：lvscan、lvdisplay、lvcreate、lvremove、lvextend</p>
+<p>*scan 查看基本信息<br>
+*display 显示详细信息<br>
+*create 创建<br>
+*remove 移除<br>
+*extend 扩展</p>
+<p>16.格式化新添加的逻辑卷并挂载</p>
+<ul>
+<li>对新添加的逻辑卷进行文件格式化“ext4”</li>
+<li>创建目录/opt/data</li>
+<li>挂载新添加的逻辑卷到上步创建的目录</li>
+</ul>
+<p>root@uos:~# lvscan<br>
+ACTIVE            '/dev/uosvg/uoslv' [14.98 GiB] inherit</p>
+<p>root@uos:~# mkfs.ext4  /dev/uosvg/uoslv</p>
+<p>root@uos:~# blkid  /dev/uosvg/uoslv<br>
+/dev/uosvg/uoslv: UUID=&quot;002cbcfc-7c80-4fca-9192-401aa84039fd&quot; TYPE=&quot;ext4&quot;<br>
+root@uos:~# mkdir /opt/data</p>
+<p>root@uos:~# vim /etc/fstab<br>
+root@uos:~# tail -1 /etc/fstab<br>
+/dev/uosvg/uoslv        /opt/data       ext4    defaults        0       0<br>
+root@uos:~# mount -a<br>
+root@uos:~# df -hT<br>
+文件系统                类型               容量  已用  可用 已用% 挂载点<br>
+.. ..<br>
+/dev/mapper/uosvg-uoslv ext4                15G   41M   14G    1% /opt/data</p>
+<p>17.在线扩容</p>
+<ul>
+<li>使用13题划分的4G分区，对/opt/data 进行在线扩容</li>
+</ul>
+<p>识别磁盘 --&gt; 分区 --&gt; 物理卷--》卷组 --&gt; 逻辑卷 --&gt; 格式化 --&gt; 挂载  --&gt; 访问挂载点<br>
+root@uos:~# lsblk<br>
+... ...<br>
+└─sdb6              8:22   0     4G  0 part<br>
+sr0                11:0    1  1024M  0 rom<br>
+root@uos:~# pvcreate  /dev/sdb6<br>
+Physical volume &quot;/dev/sdb6&quot; successfully created.<br>
+root@uos:~# vgextend  uosvg /dev/sdb6<br>
+Volume group &quot;uosvg&quot; successfully extended<br>
+root@uos:~# vgs<br>
+VG    #PV #LV #SN Attr   VSize   VFree<br>
+uosvg   2   1   0 wz--n- &lt;18.98g &lt;4.00g<br>
+root@uos:~# lvs<br>
+LV    VG    Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert<br>
+uoslv uosvg -wi-ao---- 14.98g<br>
+root@uos:~# lvscan<br>
+ACTIVE            '/dev/uosvg/uoslv' [14.98 GiB] inherit<br>
+root@uos:~# lvextend  -r  /dev/uosvg/uoslv  /dev/sdb6</p>
+<p>root@uos:~# lvs<br>
+LV    VG    Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert<br>
+uoslv uosvg -wi-ao---- &lt;18.98g<br>
+18.开机自动挂载【见16题】</p>
+<ul>
+<li>修改fstab配置文件实现对新扩容的磁盘阵列的开机自动挂载</li>
+</ul>
+<p>知识点：<br>
+实现开机自动挂载<br>
+配置文件 /etc/fstab 的记录格式<br>
+设备路径     挂载点   类型    参数     备份标记    检测顺序<br>
+/dev/sdb1  /mypart1   ext4  defdaults      0         0</p>
+<p>挂载的限制<br>
+1、根目录是必须挂载的，而且一定要先于其他mount point被挂载。<br>
+因为mount是所有目录的根目录，其他目录都是由根目录 /衍生出来的。<br>
+2、挂载点必须是已经存在的目录。<br>
+3、挂载点的指定可以任意，但必须遵守必要的系统目录架构原则<br>
+4、所有挂载点在同一时间只能被挂载一次<br>
+5、所有分区在同一时间只能挂在一次<br>
+6、若进行卸载，必须将工作目录退出挂载点（及其子目录）之外。</p>
+<p>19.文件的打包与拆解</p>
+<ul>
+<li>从http://www.firefox.com.cn/下载Firefox-latest-x86_64.tar</li>
+<li>对Firefox-latest-x86_64.tar.bz2 进行解包，解压后的目录移动到/opt/data下</li>
+<li>对/opt/data目录进行打包 ，打包完的名称为“data.tar.gz”存放位置在/opt目录下<br>
+root@uos:~# tar -jxvf  Firefox-latest-x86_64.tar.bz2   -C  /opt/data/<br>
+root@uos:~# tar -zcvf   /opt/data.tar.gz    /opt/data/</li>
+</ul>
+<p>涉及知识点：<br>
+Linux系统的文档备份/恢复 ——<br>
+归档：把很多文件归纳到一起 	tar<br>
+压缩：减小文件占用空间的大小 	gzip、bzip2、xz	<br>
+tar命令的选项：<br>
+-c：创建新文档<br>
+-x：释放备份文档<br>
+-f：指定文档名称<br>
+-z：处理 .gz 格式<br>
+-j：处理 .bz2 格式<br>
+-J：处理 .xz 格式<br>
+-t：显示文档列表<br>
+-p：保持原有权限<br>
+-P：保持绝对路径<br>
+-C：指定释放备份文件时的目标位置<br>
+--exclude=排除的子目录<br>
+tar 制作备份文件：<br>
+tar  -zcf  备份文件名.tar.gz  被备份的文档....<br>
+tar  -jcf  备份文件名.tar.bz2  被备份的文档....<br>
+tar  -Jcf  备份文件名.tar.xz  被备份的文档....<br>
+tar 从备份文件恢复：<br>
+tar  -xf  备份文件名   [-C  目标文件夹]</p>
+<p>tar 查看备份文件内容：<br>
+tar  -tf  备份文件名</p>
+<p>-P 保持绝对路径<br>
+file:用于辨识文件类型</p>
+<p>20.使用systemctl命令设置服务的开机自启动</p>
+<ul>
+<li>检查sshd配置，要求允许root登陆并重启sshd</li>
+<li>检查sshd配置，要求设置使用DNS反查为no</li>
+<li>添加ssh服务到开启自启动<br>
+ssh 远程链接</li>
+</ul>
+<p>root@uos:~# vim /etc/ssh/sshd_config<br>
+PermitRootLogin  yes<br>
+UseDNS no</p>
+<p>root@uos:~# systemctl restart ssh<br>
+root@uos:~# systemctl enable  ssh</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://longwoif.github.io/post/2022-05-09-ri-ji/">
+              <h3 class="post-title">
+                下一篇：2022-05-09日记
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">一个分享学习的博客</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://longwoif.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
