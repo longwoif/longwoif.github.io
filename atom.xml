@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longwoif.github.io</id>
     <title>玄夜冥的小窝</title>
-    <updated>2022-05-25T05:00:04.123Z</updated>
+    <updated>2022-05-25T05:06:09.820Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longwoif.github.io"/>
     <link rel="self" href="https://longwoif.github.io/atom.xml"/>
@@ -25,6 +25,628 @@
 不同的时间，不同的环境，每个人对不同事情的了解，都会影响一个人的判断，人生就宛如经历一场没有回档的游戏。没有人能完全判断未来发生的事 。我们所作出的每一个选择都会受到多方面的影响。<br>
 正如同我在此写着今天的日记，明明预约了今晚8点的洗衣机，却忘记了，还好有室友的提醒，明明不久发生过争论，但却会提醒对方。<br>
 这是第十二周的第一天，郁闷的一天！预计还有4周大二下学期就要结束了。来年在上两个月学，就得准备实习打工了，专升本我是一点想法都没有！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ICDL63道题目汇总]]></title>
+        <id>https://longwoif.github.io/post/icdl63-dao-ti-hui-zong/</id>
+        <link href="https://longwoif.github.io/post/icdl63-dao-ti-hui-zong/">
+        </link>
+        <updated>2022-05-25T05:00:25.000Z</updated>
+        <content type="html"><![CDATA[<p>Which one of the following best describes the relationship between data and information?<br>
+以下哪一个最能恰当地描述数据和信息之间的关系？<br>
+Data and information is the same.<br>
+数据和信息是一样的。<br>
+Data is the raw input that information is based on.<br>
+数据是信息所基于的原始输入。<br>
+Information is unorganised data.<br>
+信息是无组织的数据。<br>
+Information is any data that is in digital form.<br>
+信息是数字形式的数据。</p>
+<p>Which one of the following best describes cybercrime?<br>
+以下哪一个最能恰当地描述网络犯罪？<br>
+Broadband connection with little or no access to the Internet.<br>
+宽带连接，很少或没有访问互联网。<br>
+Theft of computers, smartphones or other devices.<br>
+盗窃电脑、智能手机或其他设备。<br>
+Repeated failed attempts to log on to a computer.<br>
+重复尝试登录计算机失败。<br>
+Illegal activities by means of computer networks.<br>
+通过计算机网络进行的非法活动。</p>
+<p>Which one of the following is NOT a possible threat to data?<br>
+以下选项中，哪一项不可能对数据产生威胁。<br>
+Employees.<br>
+雇员。<br>
+Service providers.<br>
+服务供应商。<br>
+Screen resolution.<br>
+屏幕分辨率。<br>
+Trojans.<br>
+木马。</p>
+<p>Which one of the following is an example of a threat to data from extraordinary circumstances?<br>
+以下哪一个例子是对数据有不可逆的威胁？<br>
+Lost password.<br>
+忘记密码。<br>
+Cracking.<br>
+破解<br>
+Fire.<br>
+火。<br>
+Cybercrime.<br>
+网络犯罪。</p>
+<p>Which one of the following is a typical threat to data from using cloud computing?<br>
+以下哪一个是使用云计算的数据的典型威胁？<br>
+Shredding<br>
+文件破碎<br>
+Loss of privacy.<br>
+隐私失窃<br>
+Identity theft.<br>
+身份盗用<br>
+Restricted access.<br>
+禁止进入。</p>
+<p>.................... is a characteristic of information security that ensures the nondisclosure of data except to another authorised person.<br>
+.....................是信息安全的特征，确保数据不被披露，其他授权的人除外。<br>
+Confidentiality.<br>
+保密。<br>
+Accessibility.<br>
+可访问性。<br>
+Integrity.<br>
+诚信。<br>
+Availability.<br>
+可用性。</p>
+<p>Which one of the following best describes why you should protect your personal information?<br>
+以下哪一项最好地描述了为什么要保护您的个人信息？<br>
+To prevent computer virus attacks.<br>
+防止计算机病毒攻击。<br>
+To protect the computer from defragmentisation.<br>
+保护计算机免受碎片整理。<br>
+To reduce the risk of identity theft.<br>
+减少身份盗用的风险。<br>
+To avoid losing backed up data files.<br>
+避免丢失备份的数据文件。</p>
+<p>Which one of the following best describes the reason for protecting commercially sensitive information?<br>
+以下哪一个最好地描述了保护商业敏感信息的原因？<br>
+To prevent theft of financial details.<br>
+防止窃取财务细节。<br>
+To prevent spread of malware.<br>
+防止恶意软件的传播。<br>
+To prevent computer hardware errors.<br>
+防止计算机硬件错误。<br>
+To prevent reduced broadband speed.<br>
+防止降低宽带速度。</p>
+<p>Which one of the following is a main principle of data protection legislation?<br>
+以下哪一项是数据保护立法的主要原则？<br>
+To protect personal data.<br>
+保护个人资料。<br>
+To protect technical data.<br>
+保护技术资料。<br>
+To protect statistical data.<br>
+保护统计数据。<br>
+To protect financial data.<br>
+保护财务数据。</p>
+<p>Which one of the following best describes a data subject?<br>
+以下哪一个最能恰当地描述一个数据主体？<br>
+An organisation who posts entries to social networking sites.<br>
+向社交网站发布条目的组织。<br>
+An individual who provides their personal data to a data controller.<br>
+个人向数据控制器提供个人资料。<br>
+An individual who carries out data processing.<br>
+进行数据处理的个人。<br>
+An organisation who encrypts data without a user's consent.<br>
+未经用户同意对数据进行加密的组织。</p>
+<p>Which one of the following best describes how ICT guidelines are used in an organisation?<br>
+以下哪一项最能恰当地描述ICT指南在组织中的使用？<br>
+To provide tax authorities with important up-to-date financial information.<br>
+向税务机关提供重要的最新财务信息。<br>
+To inform customers about personal information protection.<br>
+告知客户个人信息保护。<br>
+To provide employees with a set of rules that defines general computer use.<br>
+为员工提供规定一般计算机使用的一套规则。<br>
+To inform managers about training and competence status.<br>
+向管理人员通报培训和能力状况。</p>
+<p>Which one of the following best describes the purpose of social engineering?<br>
+以下哪一个最能恰当地描述社会工程的目的？<br>
+Password cracking.<br>
+密码破解。<br>
+Information gathering.<br>
+信息收集。<br>
+Ethical hacking.<br>
+伦理黑客。<br>
+Network sniffing.<br>
+网络嗅探。</p>
+<p>Which one of the following is a method of social engineering?<br>
+以下哪一项是社会工程的一种方法？<br>
+Creating accounts on several popular social networking sites.<br>
+在几个流行的社交网站上创建帐户。<br>
+Uploading videos on a blog very frequently.<br>
+在博客上非常频繁地上传视频。<br>
+Sending e-mail that falsely claims to be from a legitimate source.<br>
+发送伪称拥有合法来源的电子邮件。<br>
+Linking to many websites from a social networking site.<br>
+从社交网站链接到多个网站。</p>
+<p>Which one of the following best describes a direct consequence of identity theft?<br>
+以下哪一项最能描述身份盗用的直接后果？<br>
+Your keyboard or mouse may stop working.<br>
+您的键盘或鼠标可能会停止工作。<br>
+Your broadband connection may suffer from reduced speed.<br>
+您的宽带连接可能会降低速度。<br>
+Your computer may take longer to start.<br>
+您的电脑可能需要较长时间才能启动。<br>
+Your e-mail account may be accessed by someone else.<br>
+您的电子邮件帐户可能被其他人访问。</p>
+<p>Which one of the following is a method of identity theft?<br>
+以下哪一项是身份盗用的方法？<br>
+Erasing.<br>
+擦除。<br>
+Skimming.<br>
+侧录。<br>
+Formatting.<br>
+格式化。<br>
+Downloading.<br>
+下载。</p>
+<p>Which one of the following best describes the effect of enabling an application to run macros?<br>
+以下哪一项最好地描述了启用应用程序运行宏的效果？<br>
+Your computer will be more technically stable.<br>
+您的电脑在技术上将更加稳定。<br>
+Your computer will be more energy efficient.<br>
+您的电脑将更加节能。<br>
+Your computer will be more at risk from viruses.<br>
+您的电脑将面临更多的病毒风险。<br>
+Your computer will be more at risk from power outages.<br>
+您的电脑将面临停电的危险。</p>
+<p>Which one of the following is a disadvantage of data encryption?<br>
+以下选项中，哪一项正确的描述了数据加密的缺点。<br>
+The strength of the encryption is decreased if the key has few characters.<br>
+如果密钥字符少，加密的强度会降低。<br>
+The strength of the encryption is decreased if the key has many characters.<br>
+如果密钥有许多字符，加密的强度就会降低。<br>
+Encrypted data cannot be deleted unless it is first decrypted.<br>
+加密数据不能被删除，除非它首先被解密。<br>
+Encrypted data cannot be copied unless it is first decrypted.<br>
+加密数据无法复制，除非首次解密。</p>
+<p>Where would you click in the image to encrypt the files folder?<br>
+您将在哪里点击图像加密文件夹？</p>
+<p>Which one of the following best describes what can be used to conceal malware on a computer?<br>
+以下哪一个最能描述什么可以用来隐藏计算机上的恶意软件？<br>
+A folder.<br>
+一个文件夹。<br>
+A modem.<br>
+一个调制解调器<br>
+A trojan.<br>
+一个木马<br>
+A driver.<br>
+一台驱动器。</p>
+<p>Which one of the following best describes malware?<br>
+以下哪一个最能描述恶意软件？<br>
+Software that is generally of low quality.<br>
+一般质量较差的软件。<br>
+Software that is obtained at no cost for the user.<br>
+为用户免费获得的软件。<br>
+Software that is copied in violation with the licence agreement.<br>
+使用许可协议复制的软件。<br>
+Software that is designed to harm a computer system.<br>
+旨在伤害计算机系统的软件。</p>
+<p>Which one of the following is a characteristic of a virus?<br>
+以下哪一个是病毒的特征？<br>
+A computer virus can spread from a seemingly normal file.<br>
+计算机病毒可以从似乎正常的文件传播。<br>
+A computer virus can be removed with an ordinary Web browser.<br>
+可以使用普通的Web浏览器删除计算机病毒。<br>
+A computer virus can only harm via wireless network access.<br>
+计算机病毒只能通过无线网络访问而受到伤害。<br>
+A computer virus can only infect via word processing applications.<br>
+计算机病毒只能通过文字处理应用程序进行感染。</p>
+<p>Which one of the following is NOT a characteristic of adware?<br>
+以下哪一项不是广告软件的特征？<br>
+It downloads advertisements to the computer.<br>
+将广告下载到电脑。<br>
+It shows advertisements on the computer.<br>
+在电脑上显示广告。<br>
+It may place malware on the computer.<br>
+可能会在电脑上放置恶意软件。<br>
+It is impossible to remove from a computer.<br>
+从电脑中删除是不可能的。</p>
+<p>Which one of the following is a characteristic of anti-virus software?<br>
+以下哪一个是防病毒软件的特点？<br>
+It stores important passwords safely.<br>
+它安全地存储重要密码。<br>
+It alerts at any unauthorised firewall intrusion.<br>
+它可以防止任何未经授权的防火墙入侵。<br>
+It prevents fraudulent users from logging on.<br>
+它可以防止欺诈用户登录。<br>
+It scans the computer for malware.<br>
+它扫描计算机的恶意软件。</p>
+<p>Which one of the following does NOT need to have anti-virus software installed?<br>
+以下哪一项不需要安装防病毒软件？<br>
+A tablet.<br>
+平板电脑<br>
+A smartphone.<br>
+智能手机<br>
+A scanner.<br>
+扫描仪<br>
+A computer.<br>
+电脑。</p>
+<p>Which one of the following best describes why anti-virus software should be updated regularly?<br>
+以下哪一个能最恰当地描述为什么要定期更新防病毒软件？<br>
+To make sure it starts when the computer starts.<br>
+确保在计算机启动时启动。<br>
+To make sure infected files will be deleted.<br>
+确保被感染的文件被删除。<br>
+To protect against new computer viruses.<br>
+防止新的计算机病毒。<br>
+To protect against accidental removal of the software.<br>
+防止意外删除软件。</p>
+<p>Which one of the following increases the risk of contracting malware the most?<br>
+下列哪一项将最大程度上提高接触到恶意软件的风险<br>
+Using a software firewall.<br>
+使用软件防火墙<br>
+Using a hardware firewall.<br>
+使用硬件防火墙<br>
+Using obsolete and unsupported software.<br>
+使用废弃和不受支持的软件<br>
+Using obsolete and unsupported hardware.<br>
+使用废弃和不受支持的硬件</p>
+<p>Which one of the following best describes the quarantine in anti-virus software?<br>
+以下哪一项能最恰当地描述防毒软体的隔离操作？<br>
+All files that are being scanned by the software are placed here.<br>
+将经过防毒软件扫描的所有文件存放在这里。<br>
+Old virus definition files are placed here.<br>
+将老病毒定义文件存放在这里。<br>
+Infected files that cannot be deleted nor cleaned during scanning of files are placed here.<br>
+将扫描文件时无法删除或清理的感染文件存放在这里。<br>
+Backup copies of system files are placed here.<br>
+将系统文件的备份副本存放在这里。</p>
+<p>You suspect your hard drive have been subject to a malware attack.<br>
+Which one of the following is the best course of action in order to diagnose and identify the threat?<br>
+您怀疑您的硬盘驱动器遭受恶意软件攻击。<br>
+以下哪一项是最佳的行动方案，以便诊断和识别威胁？<br>
+Visit the website of a well-known anti-virus company.<br>
+访问著名的反病毒公司的网站。<br>
+Search using the operating system's help function.<br>
+使用操作系统的帮助功能进行搜索。<br>
+Read the internet router's log file.<br>
+阅读互联网路由器的日志文件。<br>
+Ask for information on a social network.<br>
+询问社交网络上的信息。</p>
+<p>Which one of the following is a security implication when connecting to a network?<br>
+连接到网络时，下列哪一项是安全隐患？<br>
+Your private information may be at risk.<br>
+您的私人信息可能会面临风险。<br>
+Your web browsing history may be deleted.<br>
+您的网页浏览记录可能会被删除。<br>
+Your hard drive will be more likely to malfunction.<br>
+您的硬盘将更容易发生故障。<br>
+Your computer will be more prone to theft.<br>
+您的电脑会更容易被盗。</p>
+<p>Which one of the following is most likely to manage the authentication, authorisation and accounting within a computer network?<br>
+以下哪一个最有可能在计算机网络中管理身份验证、授权和记帐？<br>
+The support staff.<br>
+支持人员。<br>
+The network administrator.<br>
+网络管理员。<br>
+The IT manager.<br>
+IT经理。<br>
+The CEO of the company.<br>
+公司的CEO。</p>
+<p>Which one of the following best describes the function of a firewall?<br>
+以下哪一个最能恰当地描述防火墙的功能？<br>
+A firewall encrypts files, folders and e-mail messages.<br>
+防火墙加密文件、文件夹和电子邮件。<br>
+A firewall prevents the computer hardware from overheating.<br>
+防火墙防止计算机硬件过热。<br>
+A firewall cleans a computer system infected by computer virus.<br>
+防火墙清理受计算机病毒感染的计算机系统。<br>
+A firewall blocks unauthorised access from outside a network.<br>
+防火墙阻止来自网络外的未经授权的访问。</p>
+<p>You have installed a program which needs internet access. The software can be started but does not seem to connect to the internet.Which one of the following actions is most likely needed to solve the problem?<br>
+您已经安装了需要互联网访问的程序。 该软件可以启动，但似乎没有连接到互联网。<br>
+以下哪一个行动最有可能需要解决问题？<br>
+Restart the computer.<br>
+重新启动计算机。<br>
+Re-install the software.<br>
+重新安装软件。<br>
+Make a complete anti-virus scan of your computer.<br>
+对您的计算机进行完整的防病毒扫描。<br>
+Allow the program access through the firewall.<br>
+允许程序通过防火墙访问。</p>
+<p>Which one of the following is known by the term WEP?<br>
+以下哪一项是WEP术语？<br>
+Wired Enabled Protection.<br>
+有线保护。<br>
+Wi-Fi Enabled Protection.<br>
+Wi-Fi启用保护。<br>
+Wired Equivalent Privacy.<br>
+有线等效保密。<br>
+Wi-Fi Equivalent Privacy.<br>
+Wi-Fi等效保密。</p>
+<p>Which one of the following should you be aware of when using an unprotected wireless network?<br>
+使用无保护的无线网络时，应注意以下哪一项？<br>
+Your data will be accessible to outsiders.<br>
+您的数据将被外部人员访问。<br>
+Your computer password will be changed.<br>
+您的计算机密码将被更改。<br>
+Encrypted files will be decrypted.<br>
+加密文件将被解密。<br>
+Firewall protection will be disabled.<br>
+防火墙保护将被禁用。</p>
+<p>Which one of the following allows a device to connect to the Internet using another mobile devices data connection?<br>
+以下哪一项允许设备使用其他移动设备数据连接到互联网？<br>
+A personal hotspot.<br>
+个人热点。<br>
+A personal folder.<br>
+个人文件夹。<br>
+A personal domain.<br>
+个人域名<br>
+A personal firewall.<br>
+个人防火墙。</p>
+<p>Which one of the following prevents unauthorised users from accessing data?<br>
+以下哪一项可防止未经授权的用户访问数据？<br>
+Using an unsecured network.<br>
+使用不安全的网络。<br>
+Using backup software.<br>
+使用备份软件<br>
+Using file compression.<br>
+使用文件压缩。<br>
+Using a strong password.<br>
+使用高强度密码</p>
+<p>Which one of the following best describes a one-time password?<br>
+以下哪一个最能描述一次性密码？<br>
+A password that is valid only for a specific date and time.<br>
+仅在特定日期和时间有效的密码。<br>
+A password that is valid for only one login session.<br>
+仅对一个登录会话有效的密码。<br>
+A password that is used when restarting a computer.<br>
+重新启动计算机时使用的密码。<br>
+A password that is used when encrypting e-mail messages.<br>
+加密电子邮件时使用的密码。</p>
+<p>Which one of the following best describes the purpose of a company network account?<br>
+以下哪一个最能描述公司网络帐户的目的？<br>
+To provide users with a computer virus free area for secure file storage.<br>
+为用户提供一个电脑病毒免费区域，用于安全的文件存储。<br>
+To provide users with IP (Internet Protocol) telephony and text chat.<br>
+为用户提供IP（Internet Protocol）电话和文字聊天。<br>
+To provide users with online entertainment like movies, music and games.<br>
+为用户提供电影、音乐和游戏等在线娱乐。<br>
+To provide users with services like file sharing, e-mail and Internet access.<br>
+为用户提供文件共享、电子邮件和互联网访问等服务。</p>
+<p>From a security perspective, which one of the following actions is most important before leaving a computer logged on to a network?<br>
+从安全的角度来看，在离开已经登录到网络的计算机之前，下列哪个操作是最重要的<br>
+Make sure to turn off the screen.<br>
+确保关闭屏幕。<br>
+Make sure to log off.<br>
+确保注销。<br>
+Make sure to start a virus scan.<br>
+确保启动病毒扫描。<br>
+Make sure to close all open programs.<br>
+确保关闭所有打开的程序。</p>
+<p>Which one of the following is a common biometric security technique used in access control?<br>
+以下哪一项是访问控制中使用的常见生物识别安全技术？<br>
+Foot print.<br>
+脚印。<br>
+Movement tracking.<br>
+运动跟踪。<br>
+Fingerprint.<br>
+指纹。<br>
+Voice recognition.<br>
+语音识别。</p>
+<p>Which one of the following passwords is an example of good practice?<br>
+以下密码中的哪一个是良好做法的示例？<br>
+JB<br>
+bRownj<br>
+jack<br>
+jaCkbRown_23-11-1990！</p>
+<p>Which one of the following applications has the functionality of storing multiple usernames and passwords in one location?<br>
+以下应用程序中的哪一个具有在一个位置存储多个用户名和密码的功能？<br>
+Mail manager.<br>
+邮件管理员<br>
+Content manager.<br>
+内容管理员<br>
+Task manager.<br>
+任务管理员<br>
+Password manager.<br>
+密码管理员</p>
+<p>Which one of the following best describes when the auto complete function should be disabled when completing an online form?<br>
+在你完成在线表单时以下哪一项最应禁用自动完成功能？<br>
+When entering your screen or user name.<br>
+进入屏幕或用户名时。<br>
+When entering your credit card information.<br>
+输入信用卡信息时。<br>
+When entering your address.<br>
+输入地址时<br>
+When entering your date of birth.<br>
+输入您的出生日期时</p>
+<p>Which one of the following applications would you use to delete browsing history?<br>
+您将使用以下哪种应用程序来删除浏览记录？<br>
+Microsoft Access.<br>
+OpenOffice作家<br>
+Adobe Reader.<br>
+Internet Explorer.<br>
+IE浏览器。</p>
+<p>Which one of the following is an online activity that should only be undertaken on a secure web page?<br>
+以下哪一项是仅在安全网页上进行的在线活动？<br>
+Purchasing a gift.<br>
+购买礼物<br>
+Using a search engine.<br>
+使用搜索引擎。<br>
+Watching a TV show.<br>
+看电视节目。<br>
+Playing a game.<br>
+玩游戏。</p>
+<p>Which part of https://www.security.org indicates that it is a secure website?<br>
+https://www.security.org的哪一部分表示它是一个安全的网站？<br>
+https<br>
+www<br>
+security<br>
+.org</p>
+<p>Which one of the following best describes the term pharming?<br>
+以下哪一个能最恰当地描述术语域欺骗？<br>
+Using instant messaging to gather personal information.<br>
+使用即时消息收集个人信息。<br>
+Deliberately misdirecting users to a fraudulent website.<br>
+故意误导用户到欺诈网站。<br>
+Sending unsolicited e-mail to a large number of users.<br>
+向大量用户发送未经请求的电子邮件。<br>
+Collecting browser habit information via malware.<br>
+通过恶意软件收集浏览器习惯信息。</p>
+<p>Which one of the following best describes parental control software?<br>
+以下哪一个能最恰当地描述家长控制软件？<br>
+It monitors users via camera surveillance.<br>
+通过相机监视来监控用户。<br>
+It restricts access to chat, file sharing or web browsing.<br>
+限制访问聊天、文件共享或网页浏览。<br>
+It tracks websites visited during a browsing session.<br>
+跟踪在浏览会话期间访问的网站。<br>
+It enables or disables sound and video.<br>
+启用或禁用声音和视频。</p>
+<p>Which one of the following best describes the purpose of decrypting e-mail?<br>
+以下哪一个最能恰当地描述解密电子邮件的目的？<br>
+It reduces the size of file attachments in e-mail.<br>
+减少了电子邮件中文件附件的大小。<br>
+It removes the need for anti-virus protection of e-mail.<br>
+消除了对电子邮件的防病毒保护的需要。<br>
+It automatically corrects wrong e-mail addresses.<br>
+会自动更正错误的电子邮件地址。<br>
+It makes encrypted e-mail readable.<br>
+使加密的电子邮件可读。</p>
+<p>Which one of the following is an example of how a digital signature might be used?<br>
+以下哪一个是使用数字签名的目的？<br>
+To improve web search results.<br>
+改善网页搜索结果。<br>
+To replace passwords.<br>
+替换密码<br>
+To improve e-mail security.<br>
+提高电子邮件的安全性。<br>
+To compress large files.<br>
+压缩大文件。</p>
+<p>Which one of the following best describes phishing?<br>
+以下哪一个最能恰当地描述网络钓鱼？<br>
+E-mail with large file attachments intended to slow down the e-mail server.<br>
+带有大文件附件的电子邮件，目的在减慢电子邮件服务器的速度。<br>
+E-mail with the intent to trick the recipient into revealing financial details.<br>
+电子邮件的目的是欺骗收件人揭示财务细节。<br>
+E-mail with malware that tries to use the recipient's address book for fraudulent purposes.<br>
+发送恶意软件的电子邮件，该恶意软件试图使用收件人的通讯录进行欺诈。<br>
+E-mail with advertisements sent from fraudulent senders.<br>
+欺诈发送者发送的附带广告的电子邮件。</p>
+<p>Which one of the following should be reported to the national fraud and cyber crime agency?<br>
+应向国家欺诈和网络犯罪机构报告以下哪一项？<br>
+Phishing attempt.<br>
+钓鱼尝试<br>
+Trolling attempt.<br>
+网络暴力尝试。<br>
+Broadband faults.<br>
+宽带故障<br>
+Pop-up advertisements.<br>
+弹出广告。</p>
+<p>Which one of the following actions is most likely to spread malware?<br>
+以下哪种行为最有可能传播恶意软件？<br>
+Deleting a suspicious e-mail without opening it first<br>
+遇到可疑电子邮件，先删除，而不是先打开。<br>
+Receiving a cookie while visiting a web site for the first time.<br>
+首次访问网站时收到Cookie。<br>
+Opening an e-mail attachment from an unknown sender.<br>
+从未知的发件人打开电子邮件附件。<br>
+Setting up a firewall with a 6-character long password.<br>
+设置6个字符长密码的防火墙。</p>
+<p>Which one of the following best describes why you should NOT disclose personal confidential information on social networking sites?<br>
+以下哪一项最好地描述了为什么不应该透露社交网站上的个人机密信息？<br>
+The information may violate the terms and conditions of the website.<br>
+该信息可能违反了网站的条款和条件。<br>
+The information may be difficult to remove from your user page.<br>
+该信息可能难以从用户页面中删除。<br>
+The information may be used by other users for identity theft.<br>
+其他用户可能会使用该信息进行身份盗用。<br>
+The information may affect the graphical appearance of the website.<br>
+该信息可能会影响网站的图形外观。</p>
+<p>Which one of the following does NOT ensure that data is permanently destroyed?<br>
+以下哪一项不能确保数据被永久销毁？<br>
+Shredding a memory card.<br>
+切碎记忆卡<br>
+Degaussing a hard drive.<br>
+消除硬盘驱动器。<br>
+Smashing a portable disk to pieces.<br>
+将便携式磁盘捣碎。<br>
+Moving data to the recycle bin<br>
+将数据移动到回收站</p>
+<p>Which one of the following is a potential danger when using social networking sites?<br>
+以下哪一个是使用社交网站的潜在危险？<br>
+Encrypting.<br>
+加密。<br>
+Scanning.<br>
+扫描。<br>
+Grooming.<br>
+诱拐。<br>
+Scrolling.<br>
+滚动。</p>
+<p>Which one of the following best describes a known security vulnerability of instant messaging (IM)?<br>
+以下哪一个最好地描述了即时消息（IM）的已知安全漏洞？<br>
+Messages can shut down the firewall.<br>
+消息可以关闭防火墙。<br>
+Message text can be a virus in itself.<br>
+消息文本本身可以是病毒。<br>
+Messages can disable the power supply.<br>
+消息可以禁用电源。<br>
+Message attachments can contain malware.<br>
+消息附件可能包含恶意软件。</p>
+<p>Which one of the following helps ensure confidentiality when using instant messaging?<br>
+以下哪一项有助于确保使用即时消息时的机密性？<br>
+Enabling cookies in your browser.<br>
+在浏览器中启用Cookies。<br>
+Not revealing personal information.<br>
+不透露个人资料。<br>
+Run adware while messaging.<br>
+在消息传递时运行广告软件<br>
+Invite unknown users to chat.<br>
+邀请未知用户聊天。</p>
+<p>Which one of the following can be used to reduce the risk of computer theft?<br>
+以下哪一项可用于降低电脑盗窃的风险？<br>
+Spyware.<br>
+间谍软件。<br>
+Trojans.<br>
+木马。<br>
+Cable lock.<br>
+电缆锁。<br>
+System updates.<br>
+系统升级。</p>
+<p>Which one of the following should be carried out to prevent loss of data?<br>
+应该执行以下哪一项以防止数据丢失？<br>
+Decryption.<br>
+解密。<br>
+Cracking.<br>
+破解<br>
+Formatting.<br>
+格式化。<br>
+Backups.<br>
+备份。</p>
+<p>Which one of the following is an important part of a back-up procedure?<br>
+在备份过程中以下哪一项是重要的？<br>
+Delete the original files.<br>
+删除原始文件。<br>
+Store the files in a different location.<br>
+将文件存储在不同的位置。<br>
+Copy files manually one by one.<br>
+逐个手动复制文件。<br>
+Include the operating system files.<br>
+包括操作系统文件。</p>
+<p>Which one of the following is an important reason for permanently deleting data from a device?<br>
+下列哪一项是从设备中永久删除数据的重要原因？<br>
+It makes the recycle bin available for file storage.<br>
+使回收站可用于文件存储。<br>
+It makes the device more energy efficient.<br>
+使设备更节能。<br>
+It makes applications start a lot faster.<br>
+使应用程序开始更快。<br>
+It makes the data completely inaccessible.<br>
+使数据完全无法访问。</p>
+<p>Which one of the following is a method to ensure data is permanently destroyed?<br>
+以下哪一项是确保数据永久销毁的一种方法？<br>
+Compress files before moving them to the recycle bin.<br>
+将文件放到回收站之前进行压缩。<br>
+Empty the recycle bin twice for complete destruction.<br>
+将回收站两次清空以完全销毁。<br>
+Make sure the storage media is physically destroyed.<br>
+确保存储介质被物理破坏。<br>
+Expose the storage media shortly to infrared light.<br>
+将存储介质短时间暴露于红外线。</p>
 ]]></content>
     </entry>
     <entry>
@@ -1226,158 +1848,6 @@ ip route 10.1.0.0 255.255.0.0 s0/0/1</p>
 ⚫️	AES<br>
 ⚫️	MD5<br>
 ⚫️	ESP</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[思科CCNA网络安全运营1.0——第4章考试]]></title>
-        <id>https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-4-zhang-kao-shi/</id>
-        <link href="https://longwoif.github.io/post/si-ke-ccna-wang-luo-an-quan-yun-ying-10-di-4-zhang-kao-shi/">
-        </link>
-        <updated>2022-03-13T13:50:18.000Z</updated>
-        <content type="html"><![CDATA[<p><b>当主机网卡收到来自网络介质的位时，将使用哪种 PDU 格式？</b><br>
-<b href="#" style="color:red;" >⚫️	帧</b><br>
-⚫️	文件<br>
-⚫️	数据段<br>
-⚫️	数据包</p>
-<p><b>以下哪两个特征与 UDP 会话相关？ （选择两项。）</b><br>
-<b href="#" style="color:red;" >⚫️	目的设备在延迟最小的情况下接收流量。</b><br>
-<b href="#" style="color:red;" >⚫️	收到的数据未确认。</b><br>
-⚫️	目的设备重组消息并将其传递给应用程序。<br>
-⚫️	跟踪传输的数据段。<br>
-⚫️	未确认的数据包会重新传输。</p>
-<p><b>哪个应用层协议使用 GET、PUT 和 POST 等消息类型？</b><br>
-⚫️	DNS<br>
-⚫️	SMTP<br>
-<b href="#" style="color:red;" >⚫️	HTTP</b><br>
-⚫️	DHCP<br>
-⚫️	POP3</p>
-<p><b>如果部分 FTP 消息未能传送到目的地，那么将发生什么情况？</b><br>
-⚫️	消息丢失是因为 FTP 没有使用可靠的传输方式。<br>
-⚫️	FTP 源主机向目的主机发送一个查询。<br>
-⚫️	整个 FTP 消息将重新发送。<br>
-<b href="#" style="color:red;" >⚫️	FTP 消息丢失的部分重新发送。</b></p>
-<p><img src="https://longwoif.github.io/post-images/1650721957915.png" alt="" loading="lazy"><br>
-<b>请参见图示。由于 PC1 需要向 PC2 发送数据包，因此 PC1 发出一个 ARP 请求。在这种情况下，接下来将发生什么？</b><br>
-⚫️	RT1 将发送一个带有其 Fa0/0 MAC 地址的 ARP 应答。<br>
-⚫️	SW1 将发送一个带有 PC2 MAC 地址的 ARP 应答。<br>
-<b href="#" style="color:red;" >⚫️	PC2 将发送一个带有其 MAC 地址的 ARP 应答。</b><br>
-⚫️	RT1 将发送一个带有 PC2 MAC 地址的 ARP 应答。<br>
-⚫️	SW1 将发送一个带有其 Fa0/1 MAC 地址的 ARP 应答。</p>
-<p><b>路由过程有什么作用？</b><br>
-⚫️	将 URL 名称转换为 IP 地址<br>
-⚫️	封装网络通信数据<br>
-⚫️	提供安全 Internet 文件传输<br>
-<b href="#" style="color:red;" >⚫️	选择将流量转发到目的网络时使用的路径</b><br>
-⚫️	根据 MAC 地址转发流量</p>
-<p><b>纽约的一所高中（学校 A）计划使用视频会议技术与俄罗斯的另一所高中（学校 B）建立学生交互。视频会议通过 Internet 在两个设备间实现连接。学校 A 的网络管理员使用 IP 地址 192.168.25.10 配置终端设备。管理员请求获取学校 B 中终端设备的 IP 地址，得到的响应是 192.168.25.10。管理员马上知道此 IP 不起作用。为什么？</b><br>
-<b href="#" style="color:red;" >⚫️	这是私有 IP 地址。</b><br>
-⚫️	存在 IP 地址冲突。<br>
-⚫️	这是环回地址。<br>
-⚫️	这是本地链路地址。</p>
-<p><b>子网掩码 255.255.255.224 的前缀长度计数法是什么？</b><br>
-⚫️	/28<br>
-⚫️	/25<br>
-<b href="#" style="color:red;" >⚫️	/27</b><br>
-⚫️	/26</p>
-<p><b>哪个传输层功能用于确保会话建立？</b><br>
-<b href="#" style="color:red;" >⚫️	TCP 三次握手</b><br>
-⚫️	UDP 序列号<br>
-⚫️	UDP ACK 标志<br>
-⚫️	TCP 端口号</p>
-<p><b>ICMP 消息有何用途？</b><br>
-⚫️	监控域名解析为 IP 地址的过程<br>
-⚫️	向路由器通知网络拓扑变化<br>
-<b href="#" style="color:red;" >⚫️	提供 IP 数据包传输反馈</b><br>
-⚫️	确保 IP 数据包传输</p>
-<p><img src="https://longwoif.github.io/post-images/1650722012179.png" alt="" loading="lazy"><br>
-<b>请参见图示。主机未压缩格式的全局 IPv6 地址是什么？</b><br>
-⚫️	2001:0DB8:0000:0BAF:0000:0000:3F57:FE94<br>
-⚫️	2001:DB80:0000:0000:BAF0:0000:3F57:FE94<br>
-⚫️	2001:0DB8:0000:0000:0000:0BAF:3F57:FE94<br>
-<b href="#" style="color:red;" >⚫️	2001:0DB8:0000:0000:0BAF:0000:3F57:FE94</b></p>
-<p><img src="https://longwoif.github.io/post-images/1650722035179.png" alt="" loading="lazy"><br>
-<b>请参见图示。如果使用图示中的网络，下列哪一项将成为 192.133.219.0 网络中主机 A 的默认网关地址？</b><br>
-⚫️	192.135.250.1<br>
-<b href="#" style="color:red;" >⚫️	192.133.219.1</b><br>
-⚫️	192.31.7.1<br>
-⚫️	192.133.219.0</p>
-<p><b>为什么第 3 层设备要对目的 IP 地址和子网掩码执行 AND 运算过程？</b><br>
-<b href="#" style="color:red;" >⚫️	为了确定目的网络的网络地址</b><br>
-⚫️	为了确定目的主机的主机地址<br>
-⚫️	为了确定缺陷帧<br>
-⚫️	为了确定目的网络的广播地址</p>
-<p><b>ARP 操作可能会引起哪两个网络问题？（请选择两项。）</b><br>
-⚫️	大量 ARP 请求广播会导致主机 MAC 地址表溢出并阻止主机通过网络通信。<br>
-<b href="#" style="color:red;" >⚫️	网络攻击者可能会控制 ARP 消息中的 MAC 地址和 IP 地址映射，以图拦截网络流量。</b><br>
-⚫️	手动配置静态 ARP 关联可能会促进 ARP 毒化或 MAC 地址欺骗。<br>
-<b href="#" style="color:red;" >⚫️	在带宽较低的大型网络中，多个 ARP 广播可能会导致数据通信延迟。</b><br>
-⚫️	多个 ARP 应答会使交换机 MAC 地址表包含的条目与连接到相关交换机端口的主机 MAC 地址表匹配。</p>
-<p><b>完成终止过程的 TCP 连接的最后一步是什么？</b><br>
-⚫️	服务器发送 FIN。<br>
-⚫️	服务器发送 ACK。<br>
-⚫️	客户端发送 FIN。<br>
-<b href="#" style="color:red;" >⚫️	客户端发送 ACK。<br>
-在网络上传输的 DHCPDISCOVER 如何到达 DHCP 服务器？</b><br>
-⚫️	发生 DHCPDISCOVER 消息，其中，默认网关的 IP 地址为目的地址。<br>
-<b href="#" style="color:red;" >⚫️	发送 DHCPDISCOVER 消息，其中，广播 IP 地址为目的地址。</b><br>
-⚫️	发送 DHCPDISCOVER 消息，其中，DHCP 服务器的 IP 地址为目的地址。<br>
-⚫️	发送 DHCPDISCOVER 消息，其中，所有 DHCP 服务器侦听的多播 IP 地址为目的地址。</p>
-<p><img src="https://longwoif.github.io/post-images/1650722096332.gif" alt="" loading="lazy"><br>
-<b>请参见图示。网络安全分析师正在查看交换机 S1 上转发的已捕获数据包。下列哪一设备的 MAC 地址为 50:6a:03:96:71:22？</b><br>
-<b href="#" style="color:red;" >⚫️	路由器 DG</b><br>
-⚫️	DSN 服务器<br>
-⚫️	PC-A<br>
-⚫️	路由器 ISP<br>
-⚫️	Web 服务器</p>
-<p><b>以下哪三项是私有 IP 地址？（请选择三项。）</b><br>
-⚫️	192.167.10.10<br>
-<b href="#" style="color:red;" >⚫️	192.168.5.5</b><br>
-⚫️	224.6.6.6<br>
-<b href="#" style="color:red;" >⚫️	172.16.4.4</b><br>
-⚫️	172.32.5.2<br>
-<b href="#" style="color:red;" >⚫️	10.1.1.1</b></p>
-<p><b>使用下列哪种 TCP 机制识别缺失段？</b><br>
-<b href="#" style="color:red;" >⚫️	 序列号</b><br>
-⚫️	 FCS<br>
-⚫️	 确认<br>
-⚫️	 窗口大小</p>
-<p><b>什么是套接字？</b><br>
-⚫️	 源和目的序列号和确认号的组合<br>
-⚫️	 源和目的 IP 地址以及源和目的以太网地址的组合<br>
-<b href="#" style="color:red;" >⚫️	 源 IP 地址与端口号的组合或目的 IP 地址与端口号的组合</b><br>
-⚫️	 源和目的序列号和端口号的组合</p>
-<p><b>ARP 具有哪两项功能？（请选择两项。）</b><br>
-<b href="#" style="color:red;" >⚫️	如果收到 ARP 请求的设备有目的 IPv4 地址，它会响应 ARP 应答。</b><br>
-⚫️	如果没有设备响应 ARP 请求，始发节点会将数据包广播到网段上的所有设备。<br>
-⚫️	ARP 请求发送到以太网 LAN 中的所有设备，其中包含目的主机的 IP 地址及其组播 MAC 地址。<br>
-<b href="#" style="color:red;" >⚫️	如果主机准备将数据包发送到本地目的设备，它有目的设备的 IP 地址，但没有其 MAC 地址，它将生成 ARP 广播。</b><br>
-⚫️	当主机将数据包封装到帧时，它会参考 MAC 地址表来确定 IP 地址到 MAC 地址的映射。</p>
-<p><b>下列哪一术语用于描述在另一种消息格式中放置一种消息格式的过程？</b><br>
-⚫️	分段<br>
-⚫️	多路复用<br>
-<b href="#" style="color:red;" >⚫️	封装</b><br>
-⚫️	编码</p>
-<p><b>在内部主机 NAT 转换中，外部用户用于访问内部主机的地址是什么？</b><br>
-⚫️	内部本地<br>
-⚫️	外部本地<br>
-<b href="#" style="color:red;" >⚫️	内部全局</b><br>
-⚫️	外部全局</p>
-<p><img src="https://longwoif.github.io/post-images/1650722165833.gif" alt="" loading="lazy"><br>
-<b>请参见图示。网络安全分析师正在查看交换机 S2 上从主机 A 发送至主机 B 的已捕获 ICMP 回显请求数据包。携带 ICMP 回显请求报文的以太网帧源 MAC 地址是多少？</b><br>
-<b href="#" style="color:red;" >⚫️	 00-60-0F-B1-D1-11</b><br>
-⚫️	 08-CB-8A-5C-D5-BA<br>
-⚫️	 00-D0-D3-BE-79-26<br>
-⚫️	 01-90-C0-E4-55-BB</p>
-<p><b>NAT 的主要目的是什么？</b><br>
-⚫️	提高网络安全<br>
-<b href="#" style="color:red;" >⚫️	节省 IPv4 地址</b><br>
-⚫️	允许对等文件共享<br>
-⚫️	增强网络性能</p>
-<p><b>URL http://www.cisco.com/index.html 的哪一部分代表顶级 DNS 域？</b><br>
-⚫️	http<br>
-⚫️	index<br>
-<b href="#" style="color:red;" >⚫️	.com</b><br>
-⚫️	www</p>
 ]]></content>
     </entry>
 </feed>
